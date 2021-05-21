@@ -13,6 +13,6 @@ OpenYYC_Script_tesslation_calculations - Code to count the number of data points
 
 Folders:
 
-Archive - Previous code snippits to be removed at a later date
+Old - Previous code snippits to be removed at a later date
 
 Data - The tessellated shapefiles zipped
