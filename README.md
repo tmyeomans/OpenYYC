@@ -1,12 +1,5 @@
 # OpenYYC Project - Distribution of Open Data in Calgary
 
-# Motivation
-To explore open Calgary data and:
-
-* Determine what data is collected and geographically where the data is located
-* Consider the data as an aggregated whole and categorically
-* Assess the influences of the data distribtion
-
 
 # Workflow:
 
@@ -54,6 +47,60 @@ Next each tessellated cell was divided by the mean tessell value for that data l
 The points, multipoints, polylines and polygon tessellated shapefiles were first aggregated by the original geometry, then combined.  This results in a final tessellated shapefile with a total sum and normalized sum (REVISIT PER_SUM - FIX or REMOVE).
 
 
+# Aggregated City-Assigned Categories, Suspected Duplicates Removed
+
+Transportation
+
+<img width="405" alt="Transportation" src="https://user-images.githubusercontent.com/59377701/119430653-66dd5c00-bcce-11eb-8927-d7b9260bba62.png">
+
+--------------------------------------------------
+
+Demographics
+
+<img width="356" alt="Demographics" src="https://user-images.githubusercontent.com/59377701/119430656-6775f280-bcce-11eb-9473-637a3342963d.png">
+--------------------------------------------------
+
+Environment
+
+<img width="341" alt="Environment" src="https://user-images.githubusercontent.com/59377701/119430659-680e8900-bcce-11eb-8561-8730df6db3a2.png">
+
+--------------------------------------------------
+
+Health and Safety
+
+<img width="344" alt="Health and Safety" src="https://user-images.githubusercontent.com/59377701/119430660-68a71f80-bcce-11eb-8fa8-ffaed642a541.png">
+
+--------------------------------------------------
+
+Help and Information
+
+<img width="338" alt="Help and Information" src="https://user-images.githubusercontent.com/59377701/119430662-68a71f80-bcce-11eb-887b-a4d0e1d77961.png">
+
+--------------------------------------------------
+
+Recreation and Culture
+
+<img width="380" alt="Recreation and Culture" src="https://user-images.githubusercontent.com/59377701/119430664-693fb600-bcce-11eb-81dc-c0edcc670b15.png">
+
+--------------------------------------------------
+
+Services and Amenities
+
+<img width="410" alt="Services and Amenities" src="https://user-images.githubusercontent.com/59377701/119430667-69d84c80-bcce-11eb-8fca-96cc60218bae.png">
+
+--------------------------------------------------
+
+Null Category
+
+<img width="400" alt="Null Category" src="https://user-images.githubusercontent.com/59377701/119430663-693fb600-bcce-11eb-8a14-45264cf492db.png">
+
+--------------------------------------------------
+
+Missing - Total aggregate - Needs to be redone to include 311 Service Request Data
+
+
+
+
 # Important Notes and Decisions to be Made
 
 ## Are we representing the data as it exists in the database, or are we trying to represent concrete things?
@@ -66,12 +113,12 @@ The points, multipoints, polylines and polygon tessellated shapefiles were first
 ### Data location shifting for privacy
 * Several point geometry data layers have been shifted to a single location at the center of each community, likely due to privacy considerations. Examples include Licensed Pets and 311 Service Requests.  This means that each pet licensed in a neighbourhood gets a unique record in the dataset, and a unique count in the tessellation.  This results in neighbourhood brightspots that do not correspond to the actual location of those feautures and do not represent a real distribution.  Should these datasets be included since this is how the city is choosing to represent this data?  Or should these layers be discarded?
 
-### Repetition of Polgyons
+### Repetition of polgyons
 
 * Several data layers correspond to communities or municipal wards, such as census data.  As a result, any tessell cell that crosses one of those administrative boundaries gets a higher count.  In reality, we know that community level census data is spread throughout the region, and counting these layers does not truly represent more data within those cells.  
 
 
-## Whose data are we trying to represent?
+## Statistics Canada data
 * There are several Statistics Canada layers in the datasets.  Should these be considered part of Calgary's data since they are on the Open Portal or should this be treated separately?
 
 
@@ -110,6 +157,6 @@ OpenYYC_Script_tesslation_calculations - Code to count the number of data points
 
 Old - Previous code snippits to be removed at a later date
 
-Data - The tessellated shapefiles zipped
+Data - Contains the individual tesellated shapefiles and aggregated category tessells.  (note - need to re-run the full aggregate with 311 data included)
 
 
