@@ -8,7 +8,7 @@ To explore open Calgary data and:
 * Assess the influences of the data distribtion
 
 
-#Workflow:
+# Workflow:
 
 ![OpenYYC Rough Workflow](https://user-images.githubusercontent.com/59377701/119421240-7bfcbf80-bcbb-11eb-8d8b-3e8bca066cad.png)
 
@@ -45,7 +45,7 @@ OpenYYC_script_projection_foldercreation - Code to separate shapefiles into new 
 
 OpenYYC_Script_tesslation_calculations - Code to count the number of data points within a tesselated area, normalize with respect to the total for that specific dataset and then combine with all the other tesselated files to build an aggregate layer.
 
-Folders:
+# Folders:
 
 Old - Previous code snippits to be removed at a later date
 
