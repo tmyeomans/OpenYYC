@@ -1,6 +1,6 @@
 # OpenYYC Project - Distribution of Open Data in Calgary
 
-#Motivation
+# Motivation
 To explore open Calgary data and:
 
 * Determine what data is collected and geographically where the data is located
@@ -75,20 +75,25 @@ The points, multipoints, polylines and polygon tessellated shapefiles were first
 * There are several Statistics Canada layers in the datasets.  Should these be considered part of Calgary's data since they are on the Open Portal or should this be treated separately?
 
 
+------------------------------------------
+
 # Work In Progress/Next Steps
 
 * Clean up json code to extract all desired categories (jsons are not consistent)
 * Clean previously written code
 * Develop a code that indicates presence or absence of data, not the counts
 
+-------------------------------------------
 
+# Personal Notes
 
-# Personal notes
-Binary data representation
-Frequency of updates - metadata
-Ephemeral vs permanent - data column headings? Possible manual separation
-Transportation data - check Innes
+* Binary data representation
+* Frequency of updates - metadata
+* Ephemeral vs permanent - data column headings? Possible manual separation
+* Transportation data - check Innes
+* Edmonton?
 
+-----------------------------------------
 
 
 # Scripts in the Repository:
