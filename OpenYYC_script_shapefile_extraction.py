@@ -1,19 +1,18 @@
 #-------------------------------------------------------------------------------
-# Name:        module1
-# Purpose:
+# Name:      OPENYYC_SHAPEFILE_EXTRACTION
+# Purpose:   Script to rename Open YYC shapefiles and save from multiple folder
+#            locations into a folder only contianing shapefiles
 #
-# Author:      rx99c
+# Author:      T. Yeomans
 #
 # Created:     12-12-2020
-# Copyright:   (c) rx99c 2020
-# Licence:     <your licence>
+
 #-------------------------------------------------------------------------------
 import os
 import re
-import geopandas as gpd
 import shutil
-import matplotlib
-import descartes
+
+
 
 
 #create a class for the dataset extract  Properties are currently empty or zero
@@ -21,15 +20,8 @@ class dataDistribution:
     def __init__(self):
         self.vectorNames = []
         self.vectorFiles = []
-        self.nonVectorData = []
-        self.vectorPoints = []
-        self.vectorLines = []
-        self.vectorPolygons = []
-        self.numPoints = 0
-        self.numLines = 0
-        self.numPolygons = 0
         self.numSpatial = 0
-        self.numNonSpatial = 0
+
 
 
     #create a method to rename the files to acceptable shapefile names
@@ -124,41 +116,12 @@ class dataDistribution:
         print (self.numSpatial)
 
 
-##
-##    def buildShapeLists(self):
-##        for shape in self.vectorFiles:
-##            gdf = gpd.read_file(shape)
-##
-##
-##            points = gdf.loc[gdf['geometry']=='POLYGON']
-##            points.plot();
-######            print (gdf.head)
-####
-##
-####            if 'geometry' == 'POINT':
-##            self.vectorPoints.append(points)
-##
-##
-##        self.numPoints = len(self.vectorPoints)
-##        print(self.numPoints)
-
-##            else:
-##                pass
-
-
-##            if data.geom_type == 'Points':
-####            print (data.geom_type)
-##
-##                self.vectorPoints.append(shape)
-##
-##            else:
-##                break
 
 #instantiate the filex object
 filex = dataDistribution()
 #call the open method on filex
-##filex.renameFiles()
-##filex.moveFiles()
+filex.renameFiles()
+filex.moveFiles()
 filex.getStats()
 
 
