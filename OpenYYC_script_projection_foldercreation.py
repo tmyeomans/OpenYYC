@@ -8,24 +8,24 @@
 # Created:     20-12-2020
 #
 #-------------------------------------------------------------------------------
-#import the needed libraries
+#Import the needed libraries
 import arcpy
 import os
 
 
-#define a function to get the workspace
+#Define a function to get the workspace
 def getWorkspace():
     arcpy.env.workspace = (r"C:\OpenCalgary_project\Main_shapes")
 
 
 
-#define a function to project each vector file in the workspace
+#Define a function to project each vector file in the workspace
 def projectVecdata ():
 
-    #use ListFeatureClasses and assign the list to a variable
+    #Use ListFeatureClasses and assign the list to a variable
     fcs = arcpy.ListFeatureClasses()
 
-    #count the length of the list to get the number of vector files in the workspace and print to user
+    #Count the length of the list to get the number of vector files in the workspace and print to user
     fccount = len(fcs)
     print("Number of vector files in this location: " + str(fccount))
 
@@ -35,13 +35,14 @@ def projectVecdata ():
         geometries = arcpy.CopyFeatures_management(fc, arcpy.Geometry())
         spatial_ref = arcpy.Describe(fc).spatialReference
 
-##      #if the spatial reference is unknown, let the user know that is was undefined, and assign it to a new projection
+      #If the spatial reference is unknown, let the user know that is was undefined, and assign it to a new projection
+      #For Open Calgary data use EPSG 3780 - NAD83(CSRS) / Alberta 3TM ref merid 114 W
         if  spatial_ref.name =="Unknown":
             print ("{}:Unknown Spatial Reference".format(fc))
             sr = arcpy.SpatialReference(3780)
             arcpy.DefineProjection_management(fc,sr)
 
-        #if the file has a spatial reference already defined, project it to the new coordinate system
+        #If the file has a spatial reference already defined, project it to the new coordinate system
         else:
             desc = arcpy.Describe(fc)
 
@@ -50,15 +51,15 @@ def projectVecdata ():
             arcpy.Project_management(fc, fc_proj, sr)
             print("{}".format(fc))
 
-#define a function to separate features classes into folders based on geometry
+#Define a function to separate features classes into folders based on geometry
 def buildShapeFolders():
 
-    #provide new workspace where the projected files are located
+    #Provide new workspace where the projected files are located
     arcpy.env.workspace = (r"C:\OpenCalgary_project\Main_shapes_projected")
     fcs = arcpy.ListFeatureClasses()
 
 
-#loop over each feature class and add it to the appropriate folder based on geometry
+    #loop over each feature class and add it to the appropriate folder based on geometry
     for fc in fcs:
         desc = arcpy.Describe(fc)
         if desc.shapeType == "Polygon":
@@ -82,7 +83,7 @@ def buildShapeFolders():
             pass
 
 
-#call the functions
+#Call the functions
 getWorkspace()
 projectVecdata()
 buildShapeFolders()

@@ -8,6 +8,7 @@
 # Created:     12-12-2020
 
 #-------------------------------------------------------------------------------
+#Import libraries
 import os
 import re
 import shutil
@@ -15,7 +16,7 @@ import shutil
 
 
 
-#create a class for the dataset extract  Properties are currently empty or zero
+#Create a class for the dataset extract  Properties are currently empty or zero
 class dataDistribution:
     def __init__(self):
         self.vectorNames = []
@@ -24,17 +25,17 @@ class dataDistribution:
 
 
 
-    #create a method to rename the files to acceptable shapefile names
+    #Create a method to rename the files to acceptable shapefile names without spaces or special characters
     def renameFiles(self):
 
-        #walk through the directory where the files are stored
+        #Walk through the directory where the files are stored
         for root, dirs, files in os.walk(r"C:\OpenCalgary_project\Main_data"):
 
-            #iterate over each item in all of the files
+            #Iterate over each item in all of the files
             for name in files:
 
 
-                #assign the variable VecFilename to the parent folder name
+                #Assign the variable VecFilename to the parent folder name
                 dirnames = root.split("\\")
                 vecFilename = dirnames[-1]
 
@@ -43,7 +44,7 @@ class dataDistribution:
                 clean_vecname = re.sub(r"[ ]", "_", alphanum_vecname)
                 path =(os.path.join(root, name))
 
-                #rename the vector file components from random IDs to the parent folder name. Append the shapfiles to the vectorFiles list
+                #Rename the vector file components from random IDs to the parent folder name. Append the shapfiles to the vectorFiles list
                 if name.endswith('.shp'):
                     new_shape = os.rename(path, root + "\\" + clean_vecname + '.shp')
 
@@ -62,17 +63,17 @@ class dataDistribution:
                     pass
 
 
-    #create a method to move the shapefiles from the original folders to a common folder
+    #Create a method to move the shapefiles from the original folders to a common folder
     def moveFiles(self):
 
 
-        #walk through the directory where the files are stored
+        #Walk through the directory where the files are stored
         for root, dirs, files in os.walk(r"C:\OpenCalgary_project\Main_data"):
 
-            #iterate over each item in all of the files
+            #Iterate over each item in all of the files
             for name in files:
 
-                #move the vector files components to the new location
+                #Move the vector files components to the new location
                 if name.endswith('.shp'):
                     shutil.copy(root + "\\" + name, r'C:\OpenCalgary_project\Main_shapes')
 
@@ -92,24 +93,24 @@ class dataDistribution:
 
 
 
-    #create a method to get basic statistics from the data that has been moved
+    #Create a method to get basic statistics from the data that has been moved
     def getStats(self):
-        #walk through the directory where the new files are stored
+        #Walk through the directory where the new files are stored
         for root, dirs, files in os.walk(r'C:\OpenCalgary_project\Main_shapes'):
-            #iterate over the files
+            #Iterate over the files
             for name in files:
-                #count the number of .shp files to determine how many individual shapefiles there are
+                #Count the number of .shp files to determine how many individual shapefiles there are
                 if name.endswith('.shp'):
-                    #append the names to the vectorNames list
+                    #Append the names to the vectorNames list
                     self.vectorNames.append(name)
-                    #append the location to the vectorFiles List in case the full path is needed
+                    #Append the location to the vectorFiles List in case the full path is needed
                     self.vectorFiles.append(root + "\\" + name)
 
                 else:
                     pass
 
 
-        #count the length of the vectorFiles list to determine how many records there are
+        #Count the length of the vectorFiles list to determine how many records there are
         self.numSpatial = len(self.vectorFiles)
 
         print (self.vectorNames)
@@ -117,9 +118,10 @@ class dataDistribution:
 
 
 
-#instantiate the filex object
+#Instantiate the filex object
 filex = dataDistribution()
-#call the open method on filex
+
+#Call the open method on filex
 filex.renameFiles()
 filex.moveFiles()
 filex.getStats()
