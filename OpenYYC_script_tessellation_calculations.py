@@ -37,7 +37,7 @@ def tessellatePoints():
     for fc in fcs:
 
             #Provide a tessellation shapefile which will be joined to the data and will house the counts
-            targetFC = (r"C:\OpenCalgary_project\Tessellaton_05_km_All_Data.shp")
+            targetFC = (r"C:\OpenCalgary_project\Tessellation_05_km_All_Data.shp")
             joinFC = fc
 
             #Define a location to save the new point-based tessellated shapefiles
@@ -113,7 +113,7 @@ def tessellateMultipoint():
     for fc in fcs:
 
             #Provide a tessellation shapefile which will be joined to the data and will house the counts
-            targetFC = (r"C:\OpenCalgary_project\Tessellaton_05_km_All_Data.shp")
+            targetFC = (r"C:\OpenCalgary_project\Tessellation_05_km_All_Data.shp")
             joinFC = fc
 
             #Define a location to save the new multipoint-based tessellated shapefiles
@@ -194,7 +194,7 @@ def tessellatePolylines():
     for fc in fcs:
 
             #Provide a tessellation shapefile which will be joined to the data and will house the counts
-            targetFC = (r"C:\OpenCalgary_project\Tessellaton_05_km_All_Data.shp")
+            targetFC = (r"C:\OpenCalgary_project\Tessellation_05_km_All_Data.shp")
             joinFC = fc
 
             #Define a location to save the new polyline-based tessellated shapefiles
@@ -274,7 +274,7 @@ def tessellatePolygons():
     for fc in fcs:
 
             #Provide a tessellation shapefile which will be joined to the data and will house the counts
-            targetFC = (r"C:\OpenCalgary_project\Tessellaton_05_km_All_Data.shp")
+            targetFC = (r"C:\OpenCalgary_project\Tessellation_05_km_All_Data.shp")
             joinFC = fc
 
             #Define a location to save the new polygon-based tessellated shapefiles
@@ -354,7 +354,7 @@ def tessellateGeneric():
     for fc in fcs:
 
             #Provide a tessellation shapefile which will be joined to the data and will house the counts
-            targetFC = (r"C:\OpenCalgary_project\Tessellaton_05_km_All_Data.shp")
+            targetFC = (r"C:\OpenCalgary_project\Tessellation_05_km_All_Data.shp")
             joinFC = fc
 
             #Define a location to save the new tessellated shapefiles
@@ -437,7 +437,7 @@ def joinFieldPoints():
     for fc in fcs:
 
         #Provide the main tessellation shapefile that will host the data
-        inTessell = (r"C:\OpenCalgary_project\Tessellaton_05_km_All_Data.shp")
+        inTessell = (r"C:\OpenCalgary_project\Tessellation_05_km_All_Data.shp")
         inJoinField = "GRID_ID"
         joinFC = fc
         joinFCField = "GRID_ID"
@@ -470,7 +470,7 @@ def joinFieldMultipoints():
     for fc in fcs:
 
         #Provide the main tessellation shapefile that will host the data
-        inTessell = (r"C:\OpenCalgary_project\Tessellaton_05_km_All_Data.shp")
+        inTessell = (r"C:\OpenCalgary_project\Tessellation_05_km_All_Data.shp")
         inJoinField = "GRID_ID"
         joinFC = fc
         joinFCField = "GRID_ID"
@@ -501,7 +501,7 @@ def joinFieldPolylines():
     for fc in fcs:
 
         #Provide the main tessellation shapefile that will host the data
-        inTessell = (r"C:\OpenCalgary_project\Tessellaton_05_km_All_Data.shp")
+        inTessell = (r"C:\OpenCalgary_project\Tessellation_05_km_All_Data.shp")
         inJoinField = "GRID_ID"
         joinFC = fc
         joinFCField = "GRID_ID"
@@ -534,7 +534,7 @@ def joinFieldPolygons():
     for fc in fcs:
 
         #Provide the main tessellation shapefile that will host the data
-        inTessell = (r"C:\OpenCalgary_project\Tessellaton_05_km_All_Data.shp")
+        inTessell = (r"C:\OpenCalgary_project\Tessellation_05_km_All_Data.shp")
         inJoinField = "GRID_ID"
         joinFC = fc
         joinFCField = "GRID_ID"
@@ -566,7 +566,7 @@ def joinFieldGeneric():
     for fc in fcs:
 
         #Provide the main tessellation shapefile that will host the data
-        inTessell = (r"C:\OpenCalgary_project\Tessellaton_05_km_All_Data.shp")
+        inTessell = (r"C:\OpenCalgary_project\Tessellation_05_km_All_Data.shp")
         inJoinField = "GRID_ID"
         joinFC = fc
         joinFCField = "GRID_ID"
@@ -592,7 +592,7 @@ def joinFieldGeneric():
 #Sum the results from each shapefile geometery for each category into a new field
 def combineShapes():
     #Provide the main tessellation shapefile from the previous step that will host the data
-    inTessell = (r"C:\OpenCalgary_project\Tessellaton_05_km_All_Data.shp")
+    inTessell = (r"C:\OpenCalgary_project\Tessellation_05_km_All_Data.shp")
 
 
 #Check to see if all the fields exist before summing.  If not add empty placeholder columns
