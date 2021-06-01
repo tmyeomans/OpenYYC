@@ -40,12 +40,28 @@ Median values cannot be used since many of the datasets have a majority of the c
 
 As a result, the mean was used to normalize the data.  The mean tessell value was calculated for each tesselated layer.
 
-Next each tessellated cell was divided by the mean tessell value for that data layer, providing a normalized value.
+Next each tessellated cell value was divided by the mean tessell value for that data layer, providing a normalized value.
+
+Each tessellated cell was also divided by the total count number and multiplied by 100, providing the percentage of the dataset that the specific tessell holds.
+
 
 # Aggregation
 
-The points, multipoints, polylines and polygon tessellated shapefiles were first aggregated by the original geometry, then combined.  This results in a final tessellated shapefile with a total sum and normalized sum (REVISIT PER_SUM - FIX or REMOVE).
+The points, multipoints, polylines and polygon tessellated shapefiles were first aggregated by the original geometry, then combined.  This results in a final tessellated shapefile with a total sum and normalized sum.
 
+--------------------------------------------------
+
+#Total Dataset Results
+
+The first image shows the total count distribution of data, with no normalization, and no data removed.  The impacts of large datasets with anonymized data assigned to community centerpoints is obvious as indicated by isolated bright islands of colour.
+
+<img width="584" alt="All Data Count" src="https://user-images.githubusercontent.com/59377701/120252671-6d298600-c242-11eb-9c97-47060435fcad.png">
+
+The following image also shows all of the data, normalised to stop large datasets from consuming the analysis.
+
+<img width="595" alt="All Data Normalized Sum" src="https://user-images.githubusercontent.com/59377701/120252766-ae219a80-c242-11eb-9d0d-5bb9c5ea73e5.png">
+
+--------------------------------------------------
 
 # Aggregated City-Assigned Categories, Suspected Duplicates Removed
 
