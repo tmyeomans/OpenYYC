@@ -441,7 +441,7 @@ def joinFieldPoints():
         inJoinField = "GRID_ID"
         joinFC = fc
         joinFCField = "GRID_ID"
-        fieldList = ["Join_Count","norm_ct","perc_tot"]
+        fieldList = ["Join_Count","norm_ct"]
 
         #Add the count data to the main feature class
         arcpy.JoinField_management(inTessell, inJoinField, joinFC, joinFCField, fieldList)
@@ -460,13 +460,6 @@ def joinFieldPoints():
         arcpy.management.DeleteField(inTessell, "norm_ct")
 
 
-        field = "Pt_per_sum"
-        expression = "!Pt_per_sum! + !perc_tot!"
-        arcpy.CalculateField_management(inTessell, field, expression, "", "", "FLOAT")
-        arcpy.management.DeleteField(inTessell, "perc_tot")
-
-
-
 def joinFieldMultipoints():
 
     #Add the workspace where your tessellated shapefiles containing multipoint data resides
@@ -481,7 +474,7 @@ def joinFieldMultipoints():
         inJoinField = "GRID_ID"
         joinFC = fc
         joinFCField = "GRID_ID"
-        fieldList = ["Join_Count","norm_ct","perc_tot"]
+        fieldList = ["Join_Count","norm_ct"]
 
         #Add the count data to the main feature class
         arcpy.JoinField_management(inTessell, inJoinField, joinFC, joinFCField, fieldList)
@@ -496,11 +489,6 @@ def joinFieldMultipoints():
         expression = "!MPtnrm_sum! + !norm_ct!"
         arcpy.CalculateField_management(inTessell, field, expression, "", "", "FLOAT")
         arcpy.management.DeleteField(inTessell, "norm_ct")
-
-        field = "MPtper_sum"
-        expression = "!MPtper_sum! + !perc_tot!"
-        arcpy.CalculateField_management(inTessell, field, expression, "", "", "FLOAT")
-        arcpy.management.DeleteField(inTessell, "perc_tot")
 
 
 def joinFieldPolylines():
@@ -517,7 +505,7 @@ def joinFieldPolylines():
         inJoinField = "GRID_ID"
         joinFC = fc
         joinFCField = "GRID_ID"
-        fieldList = ["Join_Count","norm_ct","perc_tot"]
+        fieldList = ["Join_Count","norm_ct"]
 
         #Add the count data to the main feature class
         arcpy.JoinField_management(inTessell, inJoinField, joinFC, joinFCField, fieldList)
@@ -535,11 +523,6 @@ def joinFieldPolylines():
         arcpy.management.DeleteField(inTessell, "norm_ct")
 
 
-        field = "Linper_sum"
-        expression = "!Linper_sum! + !perc_tot!"
-        arcpy.CalculateField_management(inTessell, field, expression, "", "", "FLOAT")
-        arcpy.management.DeleteField(inTessell, "perc_tot")
-
 
 def joinFieldPolygons():
 
@@ -555,7 +538,7 @@ def joinFieldPolygons():
         inJoinField = "GRID_ID"
         joinFC = fc
         joinFCField = "GRID_ID"
-        fieldList = ["Join_Count","norm_ct","perc_tot"]
+        fieldList = ["Join_Count","norm_ct"]
 
         #Add the count data to the main feature class
         arcpy.JoinField_management(inTessell, inJoinField, joinFC, joinFCField, fieldList)
@@ -573,14 +556,6 @@ def joinFieldPolygons():
         arcpy.management.DeleteField(inTessell, "norm_ct")
 
 
-        field = "Polper_sum"
-        expression = "!Polper_sum! + !perc_tot!"
-        arcpy.CalculateField_management(inTessell, field, expression, "", "", "FLOAT")
-        arcpy.management.DeleteField(inTessell, "perc_tot")
-
-
-
-
 def joinFieldGeneric():
 
     #Add the workspace where your tessellated shapefiles containing data resides
@@ -595,7 +570,7 @@ def joinFieldGeneric():
         inJoinField = "GRID_ID"
         joinFC = fc
         joinFCField = "GRID_ID"
-        fieldList = ["Join_Count","norm_ct","perc_tot"]
+        fieldList = ["Join_Count","norm_ct"]
 
         #Add the count data to the main feature class
         arcpy.JoinField_management(inTessell, inJoinField, joinFC, joinFCField, fieldList)
@@ -613,13 +588,6 @@ def joinFieldGeneric():
         arcpy.management.DeleteField(inTessell, "norm_ct")
 
 
-        field = "Shpper_sum"
-        expression = "!Shpper_sum! + !perc_tot!"
-        arcpy.CalculateField_management(inTessell, field, expression, "", "", "FLOAT")
-        arcpy.management.DeleteField(inTessell, "perc_tot")
-
-
-
 
 #Sum the results from each shapefile geometery for each category into a new field
 def combineShapes():
@@ -633,26 +601,26 @@ def combineShapes():
     if "Points_sum" in fieldlist:
         print ("Points present in datasets")
     else:
-        arcpy.management.AddFields(inTessell, [["Points_sum", "FLOAT"], ["Pt_nrm_sum", 'FLOAT'],["Pt_per_sum", "FLOAT"] ])
+        arcpy.management.AddFields(inTessell, [["Points_sum", "FLOAT"], ["Pt_nrm_sum", 'FLOAT']])
 
 
     if "Mpoint_sum" in fieldlist:
         print ("Points present in datasets")
     else:
-        arcpy.management.AddFields(inTessell, [["Mpoint_sum", "FLOAT"], ["MPtnrm_sum", 'FLOAT'],["MPtper_sum", "FLOAT"] ])
+        arcpy.management.AddFields(inTessell, [["Mpoint_sum", "FLOAT"], ["MPtnrm_sum", 'FLOAT']])
 
 
 
     if "Line_sum" in fieldlist:
         print ("Points present in datasets")
     else:
-        arcpy.management.AddFields(inTessell, [["Line_sum", "FLOAT"], ["Linnrm_sum", 'FLOAT'],["Linper_sum", "FLOAT"] ])
+        arcpy.management.AddFields(inTessell, [["Line_sum", "FLOAT"], ["Linnrm_sum", 'FLOAT'] ])
 
 
     if "Poly_sum" in fieldlist:
         print ("Points present in datasets")
     else:
-        arcpy.management.AddFields(inTessell, [["Poly_sum", "FLOAT"], ["Polnrm_sum", 'FLOAT'],["Polper_sum", "FLOAT"] ])
+        arcpy.management.AddFields(inTessell, [["Poly_sum", "FLOAT"], ["Polnrm_sum", 'FLOAT'] ])
 
 
 
@@ -666,16 +634,19 @@ def combineShapes():
     arcpy.CalculateField_management(inTessell, field, expression, "", "", "FLOAT")
 
 
-    field = "Per_sum"
-    expression = "!Pt_per_sum! + !MPtper_sum! + !Linper_sum! + !Polper_sum!"
-    arcpy.CalculateField_management(inTessell, field, expression, "", "", "FLOAT")
 
 
-##
-##tessellatePoints()
-##tessellateMultipoint()
-##tessellatePolylines()
-##tessellatePolygons()
+
+
+tessellatePoints()
+tessellateMultipoint()
+tessellatePolylines()
+tessellatePolygons()
+
+
+#Shortened code for a single folder
+##tessellateGeneric()
+##joinFieldGeneric()
 
 
 joinFieldPoints()
@@ -683,8 +654,5 @@ joinFieldMultipoints()
 joinFieldPolylines()
 joinFieldPolygons()
 
-###Shortened code for a single folder
-####tessellateGeneric()
-####joinFieldGeneric()
 
 combineShapes()
