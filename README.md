@@ -96,7 +96,8 @@ Help and Information
 
 Recreation and Culture
 
-<img width="380" alt="Recreation and Culture" src="https://user-images.githubusercontent.com/59377701/119430664-693fb600-bcce-11eb-81dc-c0edcc670b15.png">
+![Recreation and Culture](https://user-images.githubusercontent.com/59377701/120404526-cd343100-c303-11eb-8a9e-4a2ce1a74340.png)
+
 
 --------------------------------------------------
 
