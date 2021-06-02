@@ -192,6 +192,6 @@ OpenYYC_Script_tesslation_calculations - Code to count the number of data points
 
 Old - Previous code snippits to be removed at a later date
 
-Data - Contains the individual tesellated shapefiles and aggregated category tessells.  (note - need to re-run the full aggregate with 311 data included)
+Data - Contains the individual tesellated shapefiles, the total data aggregate tessell, and the aggregated category tessells. 
 
 
