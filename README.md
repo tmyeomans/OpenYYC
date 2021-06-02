@@ -112,9 +112,6 @@ Null Category
 
 --------------------------------------------------
 
-Missing - Total aggregate - Needs to be redone to include 311 Service Request Data
-
-
 
 
 # Important Notes and Decisions to be Made
