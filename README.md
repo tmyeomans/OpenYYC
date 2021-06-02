@@ -65,9 +65,16 @@ The following image also shows all of the data, normalised to stop large dataset
 
 # Aggregated City-Assigned Categories, Suspected Duplicates Removed
 
-Transportation
+Basemaps
 
-<img width="405" alt="Transportation" src="https://user-images.githubusercontent.com/59377701/119430653-66dd5c00-bcce-11eb-8927-d7b9260bba62.png">
+![Basemaps](https://user-images.githubusercontent.com/59377701/120404881-8dba1480-c304-11eb-91f8-a64632365786.png)
+
+--------------------------------------------------
+
+Business and Economic Activity
+
+![Business and Economic Activity](https://user-images.githubusercontent.com/59377701/120404903-9dd1f400-c304-11eb-967e-39045b05a3bb.png)
+
 
 --------------------------------------------------
 
@@ -81,6 +88,14 @@ Environment
 <img width="341" alt="Environment" src="https://user-images.githubusercontent.com/59377701/119430659-680e8900-bcce-11eb-8561-8730df6db3a2.png">
 
 --------------------------------------------------
+
+Government
+
+![Government](https://user-images.githubusercontent.com/59377701/120404913-a5919880-c304-11eb-8ef0-8a027ac5647e.png)
+
+
+--------------------------------------------------
+
 
 Health and Safety
 
@@ -104,6 +119,12 @@ Recreation and Culture
 Services and Amenities
 
 <img width="410" alt="Services and Amenities" src="https://user-images.githubusercontent.com/59377701/119430667-69d84c80-bcce-11eb-8fca-96cc60218bae.png">
+
+--------------------------------------------------
+
+Transportation
+
+<img width="405" alt="Transportation" src="https://user-images.githubusercontent.com/59377701/119430653-66dd5c00-bcce-11eb-8927-d7b9260bba62.png">
 
 --------------------------------------------------
 
