@@ -1,0 +1,744 @@
+Name,Category,Provenance,Average_rating,Download_count,Number_of_comments,View_count,Organization,Business_unit,How_data_collected,Update_frequency,Time_period_Covered,dataset_contains_geospatial,Tags
+1:10 Flood Map (10% chance of occurring in any year),null,official,0,22,0,122,null,null,null,null,null,null,null
+1:10 Flood Map (10% chance of occurring in any year),Environment,official,0,192,0,246,The City of Calgary,Water Resources and Water Services,null,Irregular,null,Yes,"['flood', 'water', 'level', 'inundation']"
+1:100 Flood Map (1% chance of occurring in any year),Environment,official,0,47,0,643,The City of Calgary,Water Resources and Water Services,null,null,null,Yes,null
+1:100 Flood Map (1% chance of occurring in any year),Environment,official,0,519,0,1370,The City of Calgary,Water Resources and Water Services,null,Irregular,null,Yes,"['flood', 'water', 'level', 'inundation']"
+1:20 Flood Map (5% chance of occurring in any year),Environment,official,0,16,0,78,The City of Calgary,Water Resources and Water Services,null,null,null,Yes,null
+1:20 Flood Map (5% chance of occurring in any year),Environment,official,0,188,0,222,The City of Calgary,Water Resources and Water Services,null,Irregular,null,Yes,"['flood', 'water', 'level', 'inundation']"
+1:200 Flood Map (0.5% chance of occurring in any year),Environment,official,0,26,0,230,The City of Calgary,Water Resources and Water Services,null,null,null,Yes,null
+1:200 Flood Map (0.5% chance of occurring in any year),Environment,official,0,306,0,503,The City of Calgary,Water Resources and Water Services,null,Irregular,null,Yes,"['flood', 'water', 'level', 'inundation']"
+1:5 Flood Map (20% chance of occurring in any year),null,official,0,20,0,350,null,null,null,null,null,null,null
+1:5 Flood Map (20% chance of occurring in any year),Environment,official,0,479,0,1283,The City of Calgary,Water Resources and Water Services,null,Irregular,null,Yes,"['flood', 'water', 'level', 'inundation']"
+1:50 Flood Map (2% chance of occurring in any year),Environment,official,0,192,0,237,The City of Calgary,Water Resources and Water Services,null,Irregular,null,Yes,"['flood', 'water', 'level', 'inundation']"
+1:50 Flood Map (2% chance of occurring in any year),Environment,official,0,35,0,83,The City of Calgary,Water Resources and Water Services,null,null,null,Yes,null
+2012 Bike Normalized Volume,Transportation/Transit,official,0,56,0,67,The City of Calgary,Transportation Planning,null,None,null,Yes,['2012 bike volume']
+2012 Bike Normalized Volume,Transportation/Transit,official,0,8,0,1,The City of Calgary,Transportation Planning,null,None,null,Yes,null
+2013 Bike Normalized Volume,Transportation/Transit,official,0,54,0,62,The City of Calgary,Transportation Planning,null,None,null,Yes,['2013 bike volume']
+2013 Bike Normalized Volume,Transportation/Transit,official,0,10,0,0,The City of Calgary,Transportation Planning,null,None,null,Yes,null
+2013 Calgary Election Summary Results,Government,official,0,221,0,195,The City of Calgary,City Clerk's Office,null,None,null,No,['election']
+2013 Election Results By Station,Government,official,0,345,0,126,The City of Calgary,City Clerk's Office,null,None,null,No,['election']
+2013 Election Results by Voting Station,Government,official,0,114,0,100,The City of Calgary,City Clerk's Office,null,None,null,null,"['election', 'vote', 'voting']"
+2014 Bike Normalized Volume,Transportation/Transit,official,0,10,0,0,The City of Calgary,Transportation Planning,null,None,null,Yes,null
+2014 Bike Normalized Volume,Transportation/Transit,official,0,52,0,53,The City of Calgary,Transportation Planning,null,None,null,Yes,['2014 bike volume']
+2015-2018 Operating Budget (Approved November 2014),Government,official,0,91,0,195,The City of Calgary,Finance,null,None,null,null,"['budget', 'action plan', 'finance', 'fiscal']"
+2015-2018 Operating Budget Expenditures,Government,official,0,6,0,84,null,null,null,null,null,null,null
+2015-2018 Operating Budget Revenues,Government,official,0,7,0,56,null,null,null,null,null,null,null
+2015 Normalized Bike 16h Volumes,Transportation/Transit,official,0,24,0,11,The City of Calgary,Transportation Planning,null,Annual,null,Yes,null
+2015 Normalized Bike 16h Volumes,Transportation/Transit,official,0,97,0,576,The City of Calgary,Transportation Planning,null,Annual,null,Yes,"['bike', 'volumes', 'cbd', '2015']"
+2015 Operating Budget by Department,Government,official,0,6,0,59,null,null,null,null,null,null,null
+2015 RTM Road Network Scenario,null,official,0,58,0,109,null,null,null,null,null,null,null
+2016 Census of Canada - Citizenship,Demographics,official,0,32,0,118,The City of Calgary,Calgary Neighbourhoods,null,None,2016,Yes,"['citizen', 'federal']"
+2016 Census of Canada - Continent of birth of immigrants,Demographics,official,0,31,0,101,The City of Calgary,Calgary Neighbourhoods,null,None,2016,Yes,"['europe', 'asia', 'north america', 'south america', 'africa', 'australia', 'oceania', 'federal']"
+2016 Census of Canada - Country of birth of immigrants,Demographics,official,0,62,0,225,The City of Calgary,Calgary Neighbourhoods,null,None,2016,Yes,['federal']
+2016 Census of Canada - Household Income,Demographics,official,0,207,0,765,The City of Calgary,Calgary Neighbourhoods,null,None,2016,Yes,['federal']
+2016 Census of Canada - Immigrant Admission Category,Demographics,official,0,38,0,82,The City of Calgary,Calgary Neighbourhoods,null,None,2016,Yes,"['citizen', 'federal']"
+2016 Census of Canada - Top 5 Languages spoken most often at home by Community,Demographics,official,0,177,0,1162,The City of Calgary,Calgary Neighbourhoods,Federal census,None,2016,Yes,"['language', 'community', 'federal']"
+2016 Normalized Bike 16h Volumes,Transportation/Transit,official,0,18,0,0,The City of Calgary,Transportation Planning,null,Annual,null,Yes,null
+2016 Normalized Bike 16h Volumes,Transportation/Transit,official,0,73,0,127,The City of Calgary,Transportation Planning,null,Annual,null,Yes,"['2016', 'cbd', 'volumes', 'bike']"
+2016 Truck Volume Percentage,Transportation/Transit,official,0,20,0,0,The City of Calgary,Transportation Planning,null,None,null,Yes,null
+2016 Truck Volume Percentage,Transportation/Transit,official,0,59,0,248,The City of Calgary,Transportation Planning,null,None,null,Yes,['truck percentage']
+2017 Election Results by Voting Station,Government,official,0,9,0,2740,null,null,null,null,null,null,null
+2017 Election Results by Ward,Government,official,0,6,0,1639,null,null,null,null,null,null,null
+2017 Mayor Election Results by Ward and Voting Station,Government,official,0,5,0,294,null,null,null,null,null,null,null
+2017 Normalized Bike 16h Volumes,Transportation/Transit,official,0,36,0,28,The City of Calgary,Transportation Planning,null,Annual,null,Yes,null
+2017 Normalized Bike 16h Volumes,Transportation/Transit,official,0,97,0,423,The City of Calgary,Transportation Planning,null,Annual,null,Yes,"['2017', 'bike', 'volumes']"
+2017 Official Election Results by Voting Station,Government,official,0,778,0,9307,The City of Calgary,City Clerk's Office,null,None,null,null,"['election', 'vote', 'voting']"
+2018 Citizen Satisfaction Survey - Perception of Services,Services and Amenities,official,0,25,0,47,The City of Calgary,Customer Service and Communications,Cellphone and landline,null,null,No,"['service value', 'services', 'satisfaction', 'citizen satisfaction', 'surveys']"
+2018 Citizen Satisfaction Survey,Services and Amenities,official,0,22,0,82,The City of Calgary,Customer Service and Communications,null,null,null,No,"['service value', 'services', 'satisfaction', 'citizen satisfaction', 'surveys']"
+2018 Snow and Ice Requests in Communities (Bylaw),Services and Amenities,official,0,1,0,44,The City of Calgary,Customer Service and Communications,null,Daily,2012-present,Yes,null
+"2018 Snow and Ice Requests in Communities (Bylaw, Parks, Roads)",Services and Amenities,official,0,1,0,44,The City of Calgary,Customer Service and Communications,null,Daily,2012-present,Yes,null
+2018 Snow and Ice Requests in Wards (Bylaw),Services and Amenities,official,0,1,0,30,The City of Calgary,Customer Service and Communications,null,Daily,2012-present,Yes,null
+"2018 Snow and Ice Requests in Wards (Bylaw, Parks, Roads)",Services and Amenities,official,0,1,0,27,The City of Calgary,Customer Service and Communications,null,Daily,2012-present,Yes,null
+2018 Traffic Volume Flow Map,Transportation/Transit,official,0,17,0,1316,The City of Calgary,Transportation Planning,null,null,null,Yes,null
+2018 Vote of the Electors Unofficial Results,Government,official,0,222,0,2291,The City of Calgary,City Clerk's Office,null,None,null,null,"['vote', 'voting', 'plebiscite']"
+2018 Vote of the Electors Unofficial Results by Ward,Government,official,0,205,0,221,The City of Calgary,City Clerk's Office,null,null,null,null,"['vote', 'voting', 'plebiscite']"
+2018 Water Main Breaks,Environment,official,0,9,0,133,The City of Calgary,Water Resources and Water Services,null,Weekly - Monday,null,Yes,null
+2019 Assessed Property Values,null,official,0,815,2,2529,null,null,null,null,null,null,null
+2019 Black Cart Composition Data Lens,Help and Information,official,0,1,0,79,null,null,null,null,null,null,null
+2019 Traffic Volume Flow Map,Transportation/Transit,official,0,0,0,18,The City of Calgary,Transportation Planning,null,None,null,Yes,null
+2020 Assessed Property Values,null,official,0,236,0,1041,The City of Calgary,Assessment,null,Weekly,2005-present,null,"['assessment', 'assessed value', 'property', 'value']"
+2020 Traffic Counts at Permanent Stations,Transportation/Transit,official,0,34,0,279,The City of Calgary,Transportation Planning,null,Monthly,null,null,"['counts', 'volumes', 'traffic', 'car', 'vehicle']"
+2028 RTM Road Network Scenario,null,official,0,92,0,81,null,null,null,null,null,null,null
+2039 RTM Road Network Scenario,null,official,0,38,0,30,null,null,null,null,null,null,null
+2048 RTM Road Network Scenario,null,official,0,63,0,51,null,null,null,null,null,null,null
+2076 RTM Road Network Scenario,null,official,0,35,0,40,null,null,null,null,null,null,null
+311 Call Centre,Government,official,0,1364,0,1197,The City of Calgary,Customer Service and Communications,null,Daily,null,No,['citizen-dashboard']
+311 Call Centre Data - Annual View,Government,official,0,618,0,291,null,null,null,null,null,null,['citizen-dashboard']
+311 Call Centre Data - Daily View,Government,official,0,628,0,214,null,null,null,null,null,null,['citizen-dashboard']
+311 Customer Satisfaction Survey,Government,official,0,109,0,263,The City of Calgary,Customer Service and Communications,null,Annual,null,null,['citizen-dashboard']
+311 Service Requests - Current Year,Services and Amenities,official,0,64,0,92,The City of Calgary,Customer Service and Communications,null,Daily,null,Yes,"['311', 'sr', 'call']"
+311 Service Requests,Services and Amenities,official,0,226,0,1077,The City of Calgary,Customer Service and Communications,null,Daily,2012-present,Yes,"['311', 'service', 'request', 'sr', 'call']"
+311 Service Requests by Community,Services and Amenities,official,0,0,0,124,The City of Calgary,Customer Service and Communications,null,Daily,2012-present,Yes,null
+364k-ejzz00,null,official,0,73,0,62,null,null,null,null,null,null,null
+3D Buildings,Base Maps,official,0,245,0,943,The City of Calgary,Corporate Analytics and Innovation,LiDAR,None,2012-10-17 to 2013-06-09,Yes,"['building', '3d']"
+5311 Call Centre - Raw dataset,null,official,0,422,0,172,The City of Calgary,Calgary Building Services,null,null,null,null,null
+About,Help and Information,official,0,8,0,12521,The City of Calgary,Corporate Analytics and Innovation,null,null,null,null,"['about', 'contact', 'contacts', 'contact information', 'information']"
+Accessible Pedestrian Traffic Signals,Health and Safety,official,0,17,0,89,The City of Calgary,Roads,null,Daily,null,Yes,null
+Air Quality Index,Environment,official,0,460,0,277,Other,Other - Not City of Calgary,null,Monthly,1980-Present (no 1981 data),Yes,"['air', 'quality', 'historical', 'station', 'aqhi', 'parameter']"
+Air Quality Index over time,Environment,official,0,8,0,975,null,null,null,null,null,null,null
+Airport Vicinity Protection Area,null,official,0,1,0,43,The City of Calgary,Calgary Building Services,null,Irregular,null,Yes,null
+Airport Vicinity Protection Area,null,official,0,100,0,161,The City of Calgary,Calgary Building Services,null,Irregular,null,Yes,"['airport', 'avpa', 'nef']"
+Alberta Open Data Portals,Government,official,0,201,0,2430,The City of Calgary,Other - Not City of Calgary,null,Irregular,null,Yes,"['open data', 'government', 'calgary', 'portal', 'alberta']"
+Alberta Open Data Portals,Government,official,0,57,0,1150,null,null,null,null,null,null,null
+Alberta Open Data Portals Map View,Government,official,0,605,0,2193,null,null,null,null,null,null,"['open data', 'government', 'calgary', 'portal', 'alberta']"
+Alberta Township Sections,Base Maps,official,0,82,0,8,The City of Calgary,Corporate Analytics and Innovation,null,Irregular,null,Yes,null
+Alberta Township Sections,Base Maps,official,0,604,0,10169,The City of Calgary,Corporate Analytics and Innovation,null,Irregular,null,Yes,"['section grid', 'ats', 'land survey']"
+Annual Bicycle Counts,Transportation/Transit,official,0,172,0,653,The City of Calgary,Transportation Planning,Manual ,Annual,2013-2016,Yes,"['bicycle', 'bike', 'count']"
+Annual Building Permit Values,Business and Economic Activity,official,0,4,0,156,null,null,null,null,null,null,null
+Annual Corporate Energy Use by Bus Units,Environment,official,0,0,0,70,The City of Calgary,Corporate Analytics and Innovation,null,Monthly,2014 - Present,No,null
+Annual count of unoccupied dwellings,Demographics,official,0,5,0,78,The City of Calgary,City Clerk's Office,null,Annually,1997-present,null,null
+Annual crime statistics per community,Health and Safety,official,0,502,0,503,null,null,null,null,null,null,null
+Annual Dwelling Count by Dwelling Type,Demographics,official,0,8,0,155,The City of Calgary,City Clerk's Office,null,Annually,1997-present,null,null
+Annual Economic Indicators,Business and Economic Activity,official,0,64,0,307,The City of Calgary,Finance,null,Annual,null,No,"['unemployment', 'wage', 'building permits', 'housing starts', 'retail sales', 'inflation rate']"
+Annual Pedestrian Injuries by Type,Health and Safety,official,0,14,0,191,Other,Other - Not City of Calgary,null,null,null,null,null
+Annual Rainfall by Channel,Environment,official,0,13,0,1762,null,null,null,null,null,null,null
+Annual Resident Count by Dwelling Type,Demographics,official,0,4,0,65,The City of Calgary,City Clerk's Office,null,Annually,1997-present,null,null
+Annual residential and non-residential building permit values,Business and Economic Activity,official,0,1377,0,1829,The City of Calgary,Calgary Building Services,null,null,null,null,null
+Annual Solar Energy Production,Environment,official,0,3,0,165,The City of Calgary,Corporate Analytics and Innovation,null,Daily,null,null,null
+Annual wildlife sightings requests,Services and Amenities,official,0,3,0,131,The City of Calgary,Customer Service and Communications,null,Daily,2012-present,Yes,null
+Appeals by Property Use,Government,official,0,9,0,49,The City of Calgary,City Clerk's Office,null,Annual,2013-Present,Yes,null
+ARB Annual Stats,Government,official,0,5,0,98,The City of Calgary,City Clerk's Office,null,Annual,2013-Present,Yes,null
+ARB Complaints by Community,Government,official,0,14,0,74,The City of Calgary,City Clerk's Office,null,Annual,2013-Present,Yes,null
+ARB Data Lens,Government,official,0,10,0,179,null,null,null,null,null,null,null
+Assessment Review Board Complaints,Government,official,0,91,0,526,The City of Calgary,City Clerk's Office,null,Annual,2013-Present,Yes,"['assessment', 'arb', 'property', 'business', 'residential', 'commercial', 'appeal', 'carb', 'larb']"
+Assessment Review Board Decisions from Year to Year,Government,official,0,31,0,108,The City of Calgary,City Clerk's Office,null,Annual,2013-Present,Yes,"['assessment', 'arb', 'property', 'business', 'residential', 'commercial', 'appeal']"
+Assessments by Community,Government,official,0,245,0,1030,The City of Calgary,Assessment,null,null,null,null,['citizen-dashboard']
+Assessments By Community Data Lens,Government,official,0,21,0,830,null,null,null,null,null,null,null
+Asset Inventory Public,null,official,0,1007,0,553,null,null,null,null,null,null,null
+Average # Crimes Per # Residents in Community,Health and Safety,official,0,10,0,1245,null,null,null,null,null,null,null
+Average Daily Air Parameter Values,Environment,official,0,8,0,312,Other,Other - Not City of Calgary,null,Monthly,1980-Present (no 1981 data),Yes,null
+Bike and Pedestrian Counts,Transportation/Transit,official,0,153,0,868,The City of Calgary,Transportation Planning,Sensors set up at various locations,Annual,null,Yes,"['bike', 'peds', 'pedestrian', 'daily']"
+Bike and Pedestrian Counts Locations,Transportation/Transit,official,0,3,0,111,The City of Calgary,Transportation Planning,null,Irregular,null,Yes,null
+Bike and Pedestrian Counts Monitoring Locations,Transportation/Transit,official,0,24,0,92,The City of Calgary,Transportation Planning,null,Irregular,null,Yes,"['location', 'monitoring', 'counter']"
+Bike Traffic Count,Transportation/Transit,official,0,7,0,207,null,null,null,null,null,null,null
+Blue cart collection days,Services and Amenities,official,0,19,0,7723,The City of Calgary,Waste and Recycling Services,null,Daily,null,Yes,null
+Blue Cart Satisfaction Bar Chart,null,official,0,1,0,38,null,null,null,null,null,null,null
+Bridge map,Transportation/Transit,official,0,18,0,129,The City of Calgary,Roads,null,Monthly,null,Yes,null
+Bridges,Transportation/Transit,official,0,201,0,304,The City of Calgary,Roads,null,Monthly,null,Yes,"['bridge', 'width', 'length']"
+Building Permit Locations,Business and Economic Activity,official,0,22,0,1283,null,null,null,null,null,null,null
+Building Permit Values by Community,Business and Economic Activity,official,0,20,0,2457,The City of Calgary,Calgary Building Services,null,null,null,null,null
+Building Permits,Business and Economic Activity,official,0,3784,0,34442,The City of Calgary,Calgary Building Services,null,Daily,null,Yes,"['building', 'construction', 'housing', 'real', 'estate', 'permit']"
+Building Permits by Community,Business and Economic Activity,official,0,23,0,1180,null,null,null,null,null,null,null
+Building Permits Issued per Year,Business and Economic Activity,official,0,10,0,2736,null,null,null,null,null,null,null
+Buildings,Base Maps,official,0,78,0,262,The City of Calgary,Corporate Analytics and Innovation,"Derived from aerial photos, DAS products show surface features and topography to within an accuracy of 15 centimetres vertically and horizontally.",Annual,null,Yes,['facilities']
+Business Revitalization Zones,Business and Economic Activity,official,0,150,0,499,The City of Calgary,Planning and Development,manual,Monthly,null,Yes,"['brz', 'bia']"
+Business Revitalization Zones,Business and Economic Activity,official,0,27,0,17,The City of Calgary,Planning and Development,manual,Monthly,null,Yes,null
+Calgary Bike and Scooter Share,Transportation/Transit,official,0,0,0,820,The City of Calgary,Transportation Planning,null,Irregular,null,null,"['bike', 'cycle', 'cycl', 'mobil', 'bicycle', 'bikeshare']"
+Calgary Bikeways,Transportation/Transit,official,0,65,0,33,The City of Calgary,Transportation Planning,manual,Weekly,null,Yes,null
+Calgary Bikeways,Transportation/Transit,official,0,662,0,1832,The City of Calgary,Transportation Planning,manual,Weekly,null,Yes,"['bike', 'transportation', 'cycle']"
+Calgary Business Licences,Business and Economic Activity,official,0,4864,0,29423,The City of Calgary,Calgary Community Standards,null,Daily,null,Yes,"['license', 'business', 'licence']"
+Calgary Business Licences Map,Business and Economic Activity,official,0,2,0,223,The City of Calgary,Calgary Community Standards,null,Monthly,null,Yes,null
+Calgary Business Licenses Data Lens,Business and Economic Activity,official,0,24,0,7780,The City of Calgary,Calgary Approvals Coordination,null,null,null,Yes,"['license', 'business']"
+Calgary Business Licenses Map,Business and Economic Activity,official,0,1174,0,4136,The City of Calgary,Calgary Approvals Coordination,null,null,null,Yes,"['license', 'business']"
+Calgary Fire Stations,Health and Safety,official,0,422,0,831,The City of Calgary,Calgary Fire Department,manual,weekly,null,Yes,null
+Calgary Health Clinics and Hospitals,Services and Amenities,official,0,20,0,850,null,null,null,null,null,null,null
+Calgary Language Community Map,null,official,0,2,0,455,null,null,null,null,null,null,null
+Calgary Language Ward Map,null,official,0,0,0,75,null,null,null,null,null,null,null
+Calgary Park and Bike Map,Transportation/Transit,official,0,16,0,549,null,null,null,null,null,null,null
+Calgary Park and Bike Map 2,Transportation/Transit,official,0,436,0,271,The City of Calgary,Transportation Planning,null,As required,null,Yes,"['bicycle', 'bike', 'parking']"
+Calgary Park and Bike Sites,Transportation/Transit,official,0,167,0,848,The City of Calgary,Transportation Planning,null,Irregular,null,Yes,"['bicycle', 'bike', 'parking']"
+Calgary Parking Authority Lot Lights,Transportation/Transit,official,0,29,0,40,The City of Calgary,Other - Not City of Calgary,null,Weekly,null,Yes,"['cpa', 'parkplus']"
+Calgary Parking Authority Lots,Transportation/Transit,official,0,49,0,74,The City of Calgary,Other Business Unit,null,Weekly,null,Yes,"['cpa', 'parkplus']"
+Calgary Police Indicators - Numbers,Government,official,0,192,0,851,The City of Calgary,Calgary Police Service,null,None,null,No,"['collision', 'crime', 'disorder', 'casualty']"
+Calgary Police Service Office Locations,Health and Safety,official,0,402,0,6718,The City of Calgary,Calgary Police Service,null,Monthly,null,Yes,"['police', 'police stations']"
+Calgary Police Service Office Locations Map,Health and Safety,official,0,21,0,3566,null,null,null,null,null,null,null
+Calgary Public Library Catchment Areas,Base Maps,official,0,21,0,0,Other,Other - Not City of Calgary,null,null,null,Yes,null
+Calgary Public Library Catchment Areas,Base Maps,official,0,110,0,424,Other,Other - Not City of Calgary,null,null,null,Yes,['library']
+Calgary Public Library Locations and Hours - Map,Recreation and Culture,official,0,618,0,3245,Other,Other - Not City of Calgary,null,null,null,Yes,"['library', 'location', 'hours']"
+Calgary Public Library Locations and Hours,Recreation and Culture,official,0,395,0,10083,Other,Other - Not City of Calgary,null,null,null,Yes,"['library', 'location', 'hours']"
+Calgary Public Library Program Information 2014,Recreation and Culture,official,0,103,0,74,Other,Other - Not City of Calgary,null,null,null,null,"['calgary public library', 'programs', '2014']"
+Calgary Public Library Program Information 2015,Recreation and Culture,official,0,100,0,106,Other,Other - Not City of Calgary,null,null,null,null,"['library', 'tours', 'attendance']"
+Calgary Public Library Tours And Outreach Program Attendance 2014,Recreation and Culture,official,0,98,0,128,Other,Other - Not City of Calgary,null,null,null,null,"['library', 'tours', 'attendance']"
+Calgary Public Library Tours And Outreach Programs 2014,Recreation and Culture,official,0,126,0,82,Other,Other - Not City of Calgary,null,null,null,null,"['library', 'tours', 'attendance']"
+Calgary Regional Transportation Model RTM Zones,Transportation/Transit,official,0,149,0,321,The City of Calgary,Transportation Planning,"Dataset is produced by Transportation Forecasting in partnership with Geodemographics.  Every few years the transportation zones are reviewed to ensure reasonable alignment with community boundaries, new roads, and other features.",Irregular,2015 - 2076,Yes,"['transportation', 'analysis', 'zones', 'tz', 'taz', 'rtm', 'rtmv2']"
+Calgary Restaurant Inspections,Health and Safety,official,0,0,0,2651,Other,Other - Not City of Calgary,null,None,null,null,"['restaurant', 'inspection', 'report', 'food', 'violation']"
+Calgary RTM Zones,Transportation/Transit,official,0,18,0,146,null,null,null,null,null,null,null
+Calgary Seniors Directory,Services and Amenities,official,0,212,0,840,The City of Calgary,Calgary Community Standards,null,null,null,null,"['services', 'seniors', 'organizations', 'addiction', 'legal']"
+Calgary Seniors Directory Data Lens,Services and Amenities,official,0,27,0,1072,The City of Calgary,Calgary Community Standards,null,null,null,Yes,"['services', 'seniors', 'organizations', 'addiction', 'legal']"
+Calgary Seniors Directory Map,Services and Amenities,official,0,545,0,235,The City of Calgary,Calgary Community Standards,null,null,null,null,"['services', 'seniors', 'organizations', 'addiction', 'legal']"
+Calgary Seniors Directory Service Categories Pie Chart,Services and Amenities,official,0,472,0,123,The City of Calgary,Calgary Community Standards,null,null,null,null,"['services', 'seniors', 'organizations', 'addiction', 'legal']"
+Calgary Seniors Directory Services Count Bar Graph,Services and Amenities,official,0,442,0,157,The City of Calgary,Calgary Community Standards,null,null,null,null,"['services', 'seniors', 'organizations', 'addiction', 'legal']"
+Calgary Transit Access- Perceptions bar,Transportation/Transit,official,0,464,0,430,null,null,null,null,null,null,['citizen-dashboard']
+Calgary Transit Access- Satisfaction column,null,official,0,452,0,149,,,,,,,['citizen-dashboard']
+Calgary Transit Realtime Service Alerts GTFS-RT,Transportation/Transit,official,0,4500033,0,678,The City of Calgary,Calgary Transit,null,Continuous,null,null,"['transit', 'schedules', 'calendar', 'bus', 'trains', 'gtfs']"
+Calgary Transit Realtime Trip Updates GTFS-RT,Transportation/Transit,official,0,17594660,0,790,The City of Calgary,Calgary Transit,null,Continuous,null,null,"['transit', 'schedules', 'calendar', 'bus', 'trains', 'gtfs', 'gtfs-rt']"
+Calgary Transit Realtime Vehicle Positions GTFS-RT,Transportation/Transit,official,0,23850104,0,1268,The City of Calgary,Calgary Transit,null,Continuous,null,null,"['transit', 'schedules', 'calendar', 'bus', 'trains', 'gtfs']"
+Calgary Transit Ridership,Transportation/Transit,official,0,71,0,530,The City of Calgary,Calgary Transit,null,Monthly,2007-Present,No,"['ridership', 'trips', 'boardings', 'riders']"
+Calgary Transit Routes,Transportation/Transit,official,0,861,0,2366,The City of Calgary,Calgary Transit,null,Quarterly,null,Yes,"['bus', 'lrt', 'brt', 'route', 'gtfs']"
+Calgary Transit Routes,Transportation/Transit,official,0,16,0,624,The City of Calgary,Calgary Transit,null,null,null,null,null
+Calgary Transit Routes and Stops,Transportation/Transit,official,0,21,0,728,The City of Calgary,Calgary Transit,null,null,null,null,null
+"Calgary Transit Scheduling Data (June 6-Sept 2, 2018)",Transportation/Transit,official,0,174,0,102,The City of Calgary,Calgary Transit,null,None,"June 6-Sept 2, 2018",No,null
+"Calgary Transit Scheduling Data (May 8-June 23, 2019)",Transportation/Transit,official,0,142,0,70,The City of Calgary,Calgary Transit,null,None,"May 8 - June 23, 2019",No,null
+Calgary Transit Scheduling Data,Transportation/Transit,official,0,294210,0,3279,The City of Calgary,Calgary Transit,null,Quarterly,null,null,"['transit', 'schedules', 'calendar', 'bus', 'trains', 'gtfs']"
+Calgary Transit Stops,Transportation/Transit,official,0,486,0,1167,The City of Calgary,Calgary Transit,null,Quarterly,null,Yes,"['bus', 'lrt', 'stop', 'station', 'gtfs']"
+"Calgary's Population, 1958-2019",Demographics,official,0,9,0,10025,The City of Calgary,City Clerk's Office,null,null,1958-present,null,null
+Calgary.ca Web Analytics Past 30 Days,Help and Information,official,0,82,0,201,The City of Calgary,Customer Service and Communications,null,Daily,Last 30 days,null,"['web', 'analytics', 'traffic', 'calgary.ca', 'webpage', 'page']"
+Calgary.ca Web Analytics Past 7 Days,Help and Information,official,0,114,0,184,The City of Calgary,Customer Service and Communications,null,Daily,Last 7 days,null,"['web', 'analytics', 'traffic', 'calgary.ca', 'webpage', 'page']"
+Calgary.ca Web Analytics Top Downloads Past 30 Days,Help and Information,official,0,81,0,271,The City of Calgary,Customer Service and Communications,null,Daily,Last 30 days,null,"['web', 'analytics', 'traffic', 'calgary.ca', 'webpage', 'page', 'download']"
+Calgary.ca Web Analytics Yesterday,Help and Information,official,0,101,0,202,The City of Calgary,Customer Service and Communications,null,Daily,Yesterday,null,"['web', 'analytics', 'traffic', 'calgary.ca', 'webpage', 'page']"
+Cats and Dogs Adopted,Services and Amenities,official,0,6,0,67,The City of Calgary,Calgary Community Standards,null,Monthly,Jan. 2012-Present,Yes,null
+CBD Cordon Auto Occupancy Count (inbound and outbound) 2016,Transportation/Transit,official,0,445,0,84,The City of Calgary,Transportation Planning,null,null,null,Yes,"['cordon', 'count', '2016', 'business', 'district']"
+Cemetery Burial Records,Services and Amenities,official,0,792,0,591,The City of Calgary,Calgary Parks,null,null,null,Yes,"['interment', 'burial', 'cemetery', 'name']"
+Cemetery Burial Records,Services and Amenities,official,0,610,0,5949,The City of Calgary,Calgary Parks,null,Daily,null,Yes,"['interment', 'burial', 'cemetery', 'name']"
+Cemetery Burial Records Map,Services and Amenities,official,0,21,0,1980,null,null,null,null,null,null,null
+Census By Community 1999,Demographics,official,0,35,0,1,The City of Calgary,City Clerk's Office,null,None,null,Yes,null
+Census By Community 1999,Demographics,official,0,57,0,323,The City of Calgary,City Clerk's Office,null,None,null,Yes,"['census', 'community']"
+Census By Community 2000,Demographics,official,0,60,0,330,The City of Calgary,City Clerk's Office,null,None,null,Yes,"['census', 'community']"
+Census By Community 2000,Demographics,official,0,30,0,4,The City of Calgary,City Clerk's Office,null,None,null,Yes,null
+Census By Community 2001,Demographics,official,0,62,0,371,The City of Calgary,City Clerk's Office,null,None,null,Yes,"['census', 'community']"
+Census By Community 2001,Demographics,official,0,33,0,1,The City of Calgary,City Clerk's Office,null,None,null,Yes,null
+Census By Community 2002,Demographics,official,0,20,0,0,The City of Calgary,City Clerk's Office,null,None,null,Yes,null
+Census By Community 2002,Demographics,official,0,52,0,285,The City of Calgary,City Clerk's Office,null,None,null,Yes,"['census', 'community']"
+Census By Community 2003,Demographics,official,0,25,0,0,The City of Calgary,City Clerk's Office,null,None,null,Yes,null
+Census By Community 2003,Demographics,official,0,51,0,305,The City of Calgary,City Clerk's Office,null,None,null,Yes,"['census', 'community']"
+Census By Community 2004,Demographics,official,0,21,0,0,The City of Calgary,City Clerk's Office,null,None,null,Yes,null
+Census By Community 2004,Demographics,official,0,46,0,173,The City of Calgary,City Clerk's Office,null,None,null,Yes,"['census', 'community']"
+Census By Community 2005,Demographics,official,0,27,0,1,The City of Calgary,City Clerk's Office,null,None,null,Yes,null
+Census By Community 2005,Demographics,official,0,61,0,271,The City of Calgary,City Clerk's Office,null,None,null,Yes,"['census', 'community']"
+Census By Community 2006,Demographics,official,0,46,0,2,The City of Calgary,City Clerk's Office,null,None,null,Yes,null
+Census By Community 2006,Demographics,official,0,113,0,470,The City of Calgary,City Clerk's Office,null,None,null,Yes,"['census', 'community']"
+Census By Community 2007,Demographics,official,0,57,0,113,The City of Calgary,City Clerk's Office,null,None,null,Yes,"['census', 'community']"
+Census By Community 2007,Demographics,official,0,30,0,0,The City of Calgary,City Clerk's Office,null,None,null,Yes,null
+Census By Community 2008,Demographics,official,0,54,0,165,The City of Calgary,City Clerk's Office,null,None,null,Yes,"['census', 'community']"
+Census By Community 2008,Demographics,official,0,33,0,0,The City of Calgary,City Clerk's Office,null,None,null,Yes,null
+Census by Community 2016,Demographics,official,0,254,0,581,The City of Calgary,City Clerk's Office,null,None,null,Yes,"['census', 'population']"
+Census By Community 2017,Demographics,official,0,1010,0,3851,The City of Calgary,City Clerk's Office,null,None,null,Yes,"['census', 'community']"
+Census by Community 2017,Demographics,official,0,104,0,214,The City of Calgary,City Clerk's Office,null,None,null,Yes,"['census', 'population']"
+Census By Community 2017,Demographics,official,0,680,0,6,The City of Calgary,City Clerk's Office,null,None,null,Yes,null
+Census by Community 2018,Demographics,official,0,2184,0,7340,The City of Calgary,City Clerk's Office,null,None,null,Yes,"['census', 'population', 'census2018']"
+Census by Community 2019,Demographics,official,0,2,0,816,The City of Calgary,City Clerk's Office,null,null,null,Yes,null
+Census by Community 2019,Demographics,official,0,2214,0,7710,The City of Calgary,City Clerk's Office,null,None,null,Yes,"['census', 'population', 'census2019']"
+Census By Ward 1999,Demographics,official,0,13,0,0,The City of Calgary,City Clerk's Office,null,None,null,Yes,null
+Census By Ward 1999,Demographics,official,0,71,0,302,The City of Calgary,City Clerk's Office,null,None,null,Yes,"['census', 'ward']"
+Census By Ward 2000,Demographics,official,0,63,0,198,The City of Calgary,City Clerk's Office,null,None,null,Yes,"['census', 'ward']"
+Census By Ward 2001,Demographics,official,0,11,0,0,The City of Calgary,City Clerk's Office,null,None,null,Yes,null
+Census By Ward 2001,Demographics,official,0,59,0,140,The City of Calgary,City Clerk's Office,null,None,null,Yes,"['census', 'ward']"
+Census By Ward 2002,Demographics,official,0,58,0,158,The City of Calgary,City Clerk's Office,null,None,null,Yes,"['census', 'ward']"
+Census By Ward 2002,Demographics,official,0,13,0,0,The City of Calgary,City Clerk's Office,null,None,null,Yes,null
+Census By Ward 2003,Demographics,official,0,22,0,0,The City of Calgary,City Clerk's Office,null,None,null,Yes,null
+Census By Ward 2003,Demographics,official,0,62,0,64,The City of Calgary,City Clerk's Office,null,None,null,Yes,"['census', 'ward']"
+Census By Ward 2004,Demographics,official,0,67,0,250,The City of Calgary,City Clerk's Office,null,None,null,Yes,"['census', 'ward']"
+Census By Ward 2004,Demographics,official,0,12,0,0,The City of Calgary,City Clerk's Office,null,None,null,Yes,null
+Census By Ward 2005,Demographics,official,0,61,0,220,The City of Calgary,City Clerk's Office,null,None,null,Yes,"['census', 'ward']"
+Census By Ward 2005,Demographics,official,0,15,0,0,The City of Calgary,City Clerk's Office,null,None,null,Yes,null
+Census By Ward 2006,Demographics,official,0,31,0,0,The City of Calgary,City Clerk's Office,null,None,null,Yes,null
+Census By Ward 2006,Demographics,official,0,82,0,315,The City of Calgary,City Clerk's Office,null,None,null,Yes,"['census', 'ward']"
+Census By Ward 2007,Demographics,official,0,71,0,136,The City of Calgary,City Clerk's Office,null,None,null,Yes,"['census', 'ward']"
+Census By Ward 2007,Demographics,official,0,10,0,0,The City of Calgary,City Clerk's Office,null,None,null,Yes,null
+Census By Ward 2008,Demographics,official,0,64,0,200,The City of Calgary,City Clerk's Office,null,None,null,Yes,"['census', 'ward']"
+Census By Ward 2008,Demographics,official,0,10,0,3,The City of Calgary,City Clerk's Office,null,None,null,Yes,null
+Census By Ward 2009,Demographics,official,0,13,0,1,The City of Calgary,City Clerk's Office,null,None,null,Yes,null
+Census By Ward 2009,Demographics,official,0,63,0,253,The City of Calgary,City Clerk's Office,null,None,null,Yes,"['census', 'ward']"
+Census By Ward 2010,Demographics,official,0,62,0,213,The City of Calgary,City Clerk's Office,null,None,null,Yes,"['census', 'ward']"
+Census By Ward 2010,Demographics,official,0,11,0,0,The City of Calgary,City Clerk's Office,null,None,null,Yes,null
+Census By Ward 2011,Demographics,official,0,16,0,0,The City of Calgary,City Clerk's Office,null,None,null,Yes,null
+Census By Ward 2011,Demographics,official,0,72,0,266,The City of Calgary,City Clerk's Office,null,None,null,Yes,"['census', 'ward']"
+Census By Ward 2012,Demographics,official,0,12,0,0,The City of Calgary,City Clerk's Office,null,None,null,Yes,null
+Census By Ward 2012,Demographics,official,0,69,0,225,The City of Calgary,City Clerk's Office,null,None,null,Yes,"['census', 'ward']"
+Census By Ward 2013,Demographics,official,0,26,0,3,The City of Calgary,City Clerk's Office,null,None,null,Yes,null
+Census By Ward 2013,Demographics,official,0,73,0,365,The City of Calgary,City Clerk's Office,null,None,null,Yes,"['census', 'ward']"
+Census By Ward 2014,Demographics,official,0,27,0,0,The City of Calgary,City Clerk's Office,null,None,null,Yes,null
+Census By Ward 2014,Demographics,official,0,74,0,194,The City of Calgary,City Clerk's Office,null,None,null,Yes,"['census', 'ward']"
+Census By Ward 2015,Demographics,official,0,13,0,1,The City of Calgary,City Clerk's Office,null,None,null,Yes,null
+Census By Ward 2015,Demographics,official,0,68,0,271,The City of Calgary,City Clerk's Office,null,None,null,Yes,"['census', 'ward']"
+Census By Ward 2016,Demographics,official,0,121,0,4,The City of Calgary,City Clerk's Office,null,None,null,Yes,null
+Census By Ward 2016,Demographics,official,0,239,0,1038,The City of Calgary,City Clerk's Office,null,None,null,Yes,"['census', 'ward']"
+Census By Ward 2017,Demographics,official,0,156,0,600,The City of Calgary,City Clerk's Office,null,None,null,Yes,"['census', 'ward']"
+Census By Ward 2017,Demographics,official,0,433,0,3,The City of Calgary,City Clerk's Office,null,None,null,Yes,null
+Census by Ward 2018,Demographics,official,0,318,0,1043,The City of Calgary,City Clerk's Office,null,None,null,Yes,"['census', 'population', 'census2018']"
+Census by Ward 2019,Demographics,official,0,118,0,336,The City of Calgary,City Clerk's Office,null,None,null,Yes,"['census', 'population', 'census2019']"
+Census by Ward 2019,Demographics,official,0,4,0,92,The City of Calgary,City Clerk's Office,null,null,null,Yes,null
+"Census Districts (effective October 16, 2017)",Government,official,0,19,0,1,The City of Calgary,City Clerk's Office,null,Irregular,null,Yes,null
+"Census Districts (effective October 16, 2017)",Government,official,0,102,0,889,The City of Calgary,City Clerk's Office,null,Irregular,null,Yes,"['census', 'election']"
+Central Business District Cordon Count 2012,Transportation/Transit,official,0,94,0,125,The City of Calgary,Transportation Planning,null,None,null,Yes,"['cordon', 'count', '2012', 'business', 'district', 'bike', 'transit', 'pedestrian', 'travel', 'car', 'vehicle']"
+Central Business District Cordon Count 2012 Map,Transportation/Transit,official,0,441,0,98,,,,,,,null
+Central Business District Cordon Count 2012 Map 2,Transportation/Transit,official,0,18,0,27,null,null,null,null,null,null,null
+Central Business District Cordon Count 2013 Map,Transportation/Transit,official,0,15,0,30,null,null,null,null,null,null,null
+Central Business District Cordon Count 2014,Transportation/Transit,official,0,98,0,108,The City of Calgary,Transportation Planning,null,None,null,Yes,"['district', 'business', '2014', 'cordon', 'count', 'bike', 'transit', 'pedestrian', 'travel', 'car', 'vehicle']"
+Central Business District Cordon Count 2014 Map,Transportation/Transit,official,0,16,0,38,null,null,null,null,null,null,null
+Central Business District Cordon Count 2015,Transportation/Transit,official,0,104,0,155,The City of Calgary,Transportation Planning,null,None,null,Yes,"['cordon', 'count', '2015', 'business', 'district', 'bike', 'transit', 'pedestrian', 'travel', 'car', 'vehicle']"
+Central Business District Cordon Count 2015 Map,Transportation/Transit,official,0,13,0,40,null,null,null,null,null,null,null
+Central Business District Cordon Count 2016,Transportation/Transit,official,0,146,0,530,The City of Calgary,Transportation Planning,null,None,"May 4 - May 31, 2016",Yes,"['cordon', 'count', '2016', 'business', 'district', 'bike', 'transit', 'pedestrian', 'travel', 'car', 'vehicle']"
+Central Business District Cordon Count 2016 Map,Transportation/Transit,official,0,474,0,107,The City of Calgary,Transportation Planning,null,null,null,Yes,"['cordon', 'count', '2016', 'business', 'district']"
+Central Business District Cordon Count 2016 Map 2,Transportation/Transit,official,0,43,0,81,null,null,null,null,null,null,null
+Central Business District Cordon Count 2017,Transportation/Transit,official,0,111,0,569,The City of Calgary,Transportation Planning,null,None,"May 9 - June 1, 2017",Yes,"['cordon', 'count', '2017', 'business', 'district', 'bike', 'transit', 'pedestrian', 'travel', 'car', 'vehicle']"
+Central Business District Cordon Count 2017 Data Lens,Transportation/Transit,official,0,9,0,915,null,null,null,null,null,null,null
+Central Business District Cordon Count 2017 Map,Transportation/Transit,official,0,18,0,206,null,null,null,null,null,null,null
+Central Business District Cordon Count 2018,Transportation/Transit,official,0,98,0,441,The City of Calgary,Transportation Planning,null,Annual,"May 1-May 28, 2018",Yes,"['cordon', 'count', '2018', 'business', 'district', 'bike', 'transit', 'pedestrian', 'travel', 'car', 'vehicle']"
+Central Business District Cordon Count 2018 Data Lens,Transportation/Transit,official,0,12,0,495,null,null,null,null,null,null,null
+Central Business District Cordon Count 2018 Map,Transportation/Transit,official,0,17,0,110,The City of Calgary,Transportation Planning,null,Annual,"May 1-May 28, 2018",Yes,null
+Central Business District Cordon Count 2019,Transportation/Transit,official,0,37,0,263,The City of Calgary,Transportation Planning,null,Annual,"May 1-May 28, 2018",Yes,"['cordon', 'count', '2019', 'business', 'district', 'bike', 'transit', 'pedestrian', 'travel', 'car', 'vehicle']"
+Central Business District Cordon Count 2019 Data Lens,Transportation/Transit,official,0,3,0,90,null,null,null,null,null,null,null
+Central Business District Cordon Count Data Lens 2016,Transportation/Transit,official,0,12,0,735,null,null,null,null,null,null,null
+Central Business District Cordon Count Inbound Volume 2016,Transportation/Transit,official,0,428,0,52,The City of Calgary,Transportation Planning,null,null,null,Yes,"['cordon', 'count', '2016', 'business', 'district']"
+Central Business District Cordon Count Outbound Volume 2016,Transportation/Transit,official,0,452,0,52,The City of Calgary,Transportation Planning,null,null,null,Yes,"['cordon', 'count', '2016', 'business', 'district']"
+Central Business District Cordon Count Totals 2016,Transportation/Transit,official,0,423,0,78,The City of Calgary,Transportation Planning,null,null,null,Yes,"['cordon', 'count', '2016', 'business', 'district']"
+Central Business District Inbound Auto Occupancy Counts 2016,Transportation/Transit,official,0,471,0,58,The City of Calgary,Transportation Planning,null,null,null,Yes,"['cordon', 'count', '2016', 'business', 'district']"
+Central Business District Inbound Cyclist Totals 2016,Transportation/Transit,official,0,477,0,67,The City of Calgary,Transportation Planning,null,null,null,Yes,"['cordon', 'count', '2016', 'business', 'district']"
+Central Business District Outbound Auto Occupancy Counts 2016,Transportation/Transit,official,0,432,0,54,The City of Calgary,Transportation Planning,null,null,null,Yes,"['cordon', 'count', '2016', 'business', 'district']"
+Central Business District Outbound Cyclist Totals 2016,Transportation/Transit,official,0,480,0,62,The City of Calgary,Transportation Planning,null,null,null,Yes,"['cordon', 'count', '2016', 'business', 'district']"
+Central Business District Transit Occupancy Count,Transportation/Transit,official,0,429,0,107,The City of Calgary,Transportation Planning,null,null,"May 4 - May 31, 2016",Yes,"['cordon', 'count', '2016', 'business', 'district']"
+Citizen Satisfaction Survey - Perception of Services,Services and Amenities,official,0,17,0,104,The City of Calgary,Customer Service and Communications,null,Annual,null,No,"['service value', 'services', 'satisfaction', 'citizen satisfaction', 'surveys']"
+Citizen Satisfaction Survey 2017,null,official,0,205,0,956,The City of Calgary,Customer Service and Communications,null,None,null,null,"['survey', 'citizen', 'satisfaction', 'citsat', 'research', 'perception', 'public', 'opinion']"
+City Boundary,Base Maps,official,0,2878,0,19028,The City of Calgary,Corporate Analytics and Innovation,null,Irregular,null,Yes,['mdp']
+City Boundary,Base Maps,official,0,255,0,67,The City of Calgary,Corporate Analytics and Innovation,null,Irregular,null,Yes,null
+City of Calgary Bylaws,Government,official,0,19,0,62,The City of Calgary,City Clerk's Office,null,Irregular,null,No,null
+City of Calgary Careers,Government,official,0,405,0,1481,The City of Calgary,Human Resources,RSS feed,Daily,null,No,"['career', 'jobs', 'opportunities', 'employees', 'work']"
+City of Calgary Events,News and Events,official,0,5,0,186,The City of Calgary,Customer Service and Communications,null,12 hours,null,Yes,null
+City of Calgary Events,News and Events,official,0,187,0,645,The City of Calgary,Customer Service and Communications,null,Daily,null,Yes,"['council', 'meeting', 'board', 'recreation', 'event', 'engagement']"
+City of Calgary Events Map,News and Events,official,0,19,0,199,null,null,null,null,null,null,null
+City of Calgary Newsroom,News and Events,official,0,339,0,1068,The City of Calgary,Customer Service and Communications,null,Daily,null,No,"['news', 'affordable housing', 'arts and culture', 'road closures']"
+City of Calgary Solar Photovoltaic Sites,null,official,0,44,0,220,null,null,null,null,null,null,null
+City Quadrants,Base Maps,official,0,94,0,9,The City of Calgary,Corporate Analytics and Innovation,null,Irregular,null,Yes,null
+City Quadrants,Base Maps,official,0,818,0,3863,The City of Calgary,Corporate Analytics and Innovation,null,Irregular,null,Yes,null
+Citywide Land Cover,Environment,official,0,1547,0,1793,The City of Calgary,Calgary Parks,null,Irregular,null,Yes,"['land', 'cover', 'classification', 'park', 'habitat', 'natural']"
+Citywide Land Cover Classification Map,Environment,official,0,20,0,792,The City of Calgary,Calgary Parks,null,null,null,null,null
+Civic census 2011 - Car travel by Community,Transportation/Transit,official,0,7,0,64,null,null,null,null,null,null,null
+Civic census 2011 - Drove alone to Work,Transportation/Transit,official,0,16,0,36,null,null,null,null,null,null,null
+Civic census 2011 - Modes of Travel to Work,Transportation/Transit,official,0,120,0,179,The City of Calgary,Transportation Planning,null,None,null,Yes,"['travel', 'bike', 'walk', 'transit', 'car', 'carpool', 'work']"
+Civic census 2011 - Travel by Bike to Work,Transportation/Transit,official,0,18,0,54,null,null,null,null,null,null,null
+Civic census 2011 - Travel by Transit to Work Map,Transportation/Transit,official,0,16,0,38,null,null,null,null,null,null,null
+Civic census 2014 - Car travel by Community,Transportation/Transit,official,0,8,0,36,null,null,null,null,null,Yes,null
+Civic census 2014 - Modes of Travel to Work,Transportation/Transit,official,0,101,0,101,The City of Calgary,Transportation Planning,null,None,null,Yes,null
+Civic census 2014 - Travel by Bike to Work,Transportation/Transit,official,0,15,0,27,null,null,null,null,null,Yes,null
+Civic census 2016 - Car travel by Community,Transportation/Transit,official,0,6,0,170,The City of Calgary,Transportation Planning,null,null,null,Yes,null
+Civic census 2016 - Modes of Travel to Work,Transportation/Transit,official,0,269,0,607,The City of Calgary,Transportation Planning,null,None,null,Yes,null
+Civic census 2016 - Travel by Bike to Work,Transportation/Transit,official,0,17,0,104,The City of Calgary,Transportation Planning,null,null,null,Yes,null
+Civic Census by Community,Demographics,official,0,85,0,558,The City of Calgary,City Clerk's Office,null,Annually,1998-present,null,"['census', 'population', 'census2018']"
+Civic Census by Community and Dwelling Structure,Demographics,official,0,271,0,971,The City of Calgary,City Clerk's Office,null,Annual,1998-present,null,"['census', 'population', 'census2018']"
+"Civic Census by Community, Age and Gender",Demographics,official,0,155,0,759,The City of Calgary,City Clerk's Office,null,Annual,1996-present,null,"['census', 'population']"
+Civic Census by Ward,Demographics,official,0,16,0,107,The City of Calgary,City Clerk's Office,null,Annually,1997-present,null,"['census', 'population', 'census2018']"
+Civic Census by Ward and Dwelling Structure,Demographics,official,0,255,0,1306,The City of Calgary,City Clerk's Office,null,Annual,1997-present,null,"['census', 'population', 'census2018']"
+"Civic Census by Ward, Age and Gender",Demographics,official,0,39,0,210,The City of Calgary,City Clerk's Office,null,Annual,1994-present,null,"['census', 'population']"
+Civic Census Citywide,Demographics,official,0,35,0,442,The City of Calgary,City Clerk's Office,null,Annually,1997-present,null,"['census', 'population', 'census2018']"
+Civic Census Results 1958-2019,Demographics,official,0,680,0,3816,The City of Calgary,City Clerk's Office,null,Annual,1958-present,null,"['census', 'population', 'census2018']"
+Collection System Levels and Flows,Services and Amenities,official,0,10,0,172,The City of Calgary,Water Resources and Water Services,null,Irregular,2005-2013 (no 2006 data),No,"['flow', 'level', 'velocity', 'collection', 'wastewater']"
+Communities by Sector,Base Maps,official,0,17,0,287,The City of Calgary,Calgary Community Standards,null,As required,null,Yes,null
+Communities by Ward,Government,official,0,290,0,1120,The City of Calgary,Corporate Analytics and Innovation,null,Irregular,null,Yes,"['ward', 'community']"
+Communities by Ward Data Lens,Government,official,0,8,0,606,null,null,null,null,null,null,null
+Community Boundaries,Base Maps,official,100,4294,4,11321,The City of Calgary,Corporate Analytics and Innovation,null,Irregular,null,Yes,"['community', 'boundary']"
+Community Boundaries 2011,null,official,0,71,0,158,The City of Calgary,City Clerk's Office,null,None,2011,Yes,null
+Community Crime and Disorder Map (to be archived),Health and Safety,official,0,33,0,180340,null,null,null,null,null,null,null
+Community Crime and Disorder Statistics (to be archived),Health and Safety,official,0,3208,0,27998,The City of Calgary,Calgary Police Service,null,Monthly,2012-Present,Yes,"['crime', 'police', 'law enforcement', 'community', 'disorder', 'property', 'safety']"
+Community Crime and Disorder Statistics Timeline,Health and Safety,official,0,9,0,3938,null,null,null,null,null,null,null
+Community Crime Data Lens,null,official,0,2,0,460,null,null,null,null,null,null,null
+Community Crime Histogram,Health and Safety,official,0,7,0,189,null,null,null,null,null,null,null
+Community Crime Statistics,Health and Safety,official,0,719,0,3281,The City of Calgary,Calgary Police Service,null,Monthly,2017-Present,Yes,"['crime', 'police', 'law enforcement', 'community', 'safety']"
+Community Crime Statistics Column Chart,Health and Safety,official,0,5,0,153,null,null,null,null,null,null,null
+Community Crime Statistics Map,Health and Safety,official,0,3,0,1651,null,null,null,null,null,null,null
+Community Map of Calgary Business Licences,Business and Economic Activity,official,0,2,0,632,The City of Calgary,Calgary Community Standards,null,Monthly,null,Yes,null
+Community Points,Base Maps,official,0,494,0,1690,The City of Calgary,Calgary Community Standards,null,Irregular,null,Yes,['community']
+Community Points Map View,Base Maps,official,0,603,0,842,The City of Calgary,Corporate Analytics and Innovation,,,,Yes,"['community', 'points']"
+Community Sectors,Base Maps,official,0,262,1,511,The City of Calgary,Corporate Analytics and Innovation,null,Irregular,null,Yes,null
+Community Sectors Map,Base Maps,official,0,16,0,308,The City of Calgary,Corporate Analytics and Innovation,null,As needed,null,Yes,null
+Community Services,Services and Amenities,official,0,484,0,1325,The City of Calgary,Corporate Analytics and Innovation,null,Monthly,null,Yes,"['attraction', 'community', 'centre', 'cout', 'hospital', 'library', 'phs clinic', 'visitor info', 'social dev ctr']"
+Community Services Map,Services and Amenities,official,0,575,0,663,null,null,null,null,null,null,null
+Community-wide GHG Inventory By Emissions Source,Environment,official,0,9,0,535,null,null,null,null,null,null,null
+Community-wide GHG Inventory By Sector,Environment,official,0,9,0,549,null,null,null,null,null,null,null
+Community-wide Greenhouse Gas (GHG) Inventory,Environment,official,0,241,0,1858,The City of Calgary,Environmental and Safety Management,null,Annual,2005-Present,No,"['greenhouse', 'gas', 'ghg', 'emissions', 'climate change', 'waste', 'transportation', 'buildings']"
+Compensation Disclosure List,Government,official,0,108,0,982,The City of Calgary,Human Resources,null,Annual,null,null,"['pay', 'compensation', 'salary']"
+Compensation Disclosure List 2015,Government,official,0,440,0,189,The City of Calgary,Human Resources,null,Annual,null,null,"['pay', 'compensation', 'salary']"
+Compensation Disclosure List 2016,Government,official,0,451,0,246,The City of Calgary,Human Resources,null,Annual,null,null,"['pay', 'compensation', 'salary']"
+Compensation Disclosure List 2017,Government,official,0,504,0,1828,The City of Calgary,Human Resources,null,Annual,null,null,"['pay', 'compensation', 'salary']"
+Compensation Disclosure List 2018,Government,official,0,426,0,1030,The City of Calgary,Human Resources,null,Annual,null,null,"['pay', 'compensation', 'salary']"
+Compensation Disclosure List 2019,Government,official,0,70,0,1048,The City of Calgary,Human Resources,null,Annual,null,null,"['pay', 'compensation', 'salary']"
+Compensation Disclosure List 2020,Government,official,0,34,0,324,The City of Calgary,Human Resources,null,Annual,null,null,"['pay', 'compensation', 'salary']"
+Construction and Demolition Garbage Composition - Material Category,Help and Information,official,0,1,0,19,The City of Calgary,Waste and Recycling Services,null,As needed,2019,No,null
+Construction and Demolition Garbage Composition - Proper Disposal Location,Help and Information,official,0,1,0,17,The City of Calgary,Waste and Recycling Services,null,As needed,2019,No,null
+Construction and Demolition Garbage Composition,Help and Information,official,0,13,0,70,The City of Calgary,Waste and Recycling Services,null,As needed,2019,No,"['waste', 'garbage', 'waste composition']"
+Construction Detours,Transportation/Transit,official,0,407,0,973,The City of Calgary,Roads,Advanced Traveler Information System (ATIS),Daily,null,Yes,"['construction', 'detour']"
+Construction detours map,Transportation/Transit,official,0,15,0,131,The City of Calgary,Roads,Advanced Traveler Information System (ATIS),12 hours,null,Yes,null
+Construction Detours Spatial Lens,Transportation/Transit,official,0,19,0,1577,The City of Calgary,Transportation Infrastructure,null,null,null,Yes,"['construction', 'detour']"
+Corporate Energy Consumption,Environment,official,0,434,0,2217,The City of Calgary,Corporate Analytics and Innovation,null,Monthly,2014 - Present,No,"['energy', 'electricity', 'natural gas', 'district', 'solar', 'thermal']"
+Council and Committee Votes,Government,official,0,0,0,122,The City of Calgary,City Clerk's Office,null,Monthly,null,No,"['vote', 'voting', 'evote']"
+COVID-19 related requests by ward and community,Services and Amenities,official,0,3,0,107,The City of Calgary,Customer Service and Communications,null,Daily,null,No,null
+COVID-19 Requests,Services and Amenities,official,0,84,0,418,The City of Calgary,Customer Service and Communications,null,Daily,null,No,"['311', 'call', 'coronavirus', 'covid']"
+Crosswalk Locations,Health and Safety,official,0,17,0,140,null,null,null,null,null,null,null
+Crosswalk Types,Health and Safety,official,0,7,0,122,null,null,null,null,null,null,null
+Crosswalks,Health and Safety,official,0,168,0,415,The City of Calgary,Roads,null,Weekly,null,Yes,"['school', 'signalized', 'midblock', 'downtown', 'traffic circle']"
+Current Traffic Incidents,Transportation/Transit,official,0,3550,0,886,The City of Calgary,Roads,Advanced Traveler Information System (ATIS),Continuous,null,Yes,"['traffic', 'incident', 'road', 'safety']"
+Current Traffic Incidents and Construction zones,Transportation/Transit,official,0,15,0,110,The City of Calgary,Roads,Advanced Traveler Information System (ATIS),10 minutes,null,null,null
+Daily COVID-19 requests to 311,Services and Amenities,official,0,2,0,91,The City of Calgary,Customer Service and Communications,null,Daily,null,No,null
+"Deciduous and evergreen trees, by mature size",Environment,official,0,6,0,134,null,null,null,null,null,null,null
+DETAIL,Transportation/Transit,official,0,28,0,195,The City of Calgary,Calgary Transit,Automated Passenger Counter (APC),None,20180507-20180625 and 20190506-20190623,Yes,null
+"Development Permit Applications, by Community",null,official,0,16,0,476,null,null,null,null,null,null,null
+Development Permit Public Notices,Government,official,0,395,0,4980,The City of Calgary,Calgary Building Services,null,Weekly,null,Yes,"['development', 'permit', 'notice']"
+Development Permits,null,official,0,483,0,2998,The City of Calgary,Planning and Development,null,Daily,null,Yes,null
+Education Performance,Government,official,0,0,0,324,Other,Other - Not City of Calgary,Historical publications and powerpoints,null,null,null,"['education', 'results', 'performance', 'enrolment', 'demographics', 'business plan']"
+Electrical Inspections,Health and Safety,official,0,34,0,447,The City of Calgary,Calgary Approvals Coordination,null,Daily,null,Yes,"['permit', 'contractor', 'inspection']"
+Employment Rates,Business and Economic Activity,official,0,1,0,219,null,null,null,null,null,null,null
+EMS Stations,Health and Safety,official,0,116,0,608,The City of Calgary,Corporate Analytics and Innovation,null,Irregular,null,Yes,null
+Fair Entry Program Applicants History,Services and Amenities,official,0,2,0,33,null,null,null,null,null,null,null
+Fair Entry – Subsidy Assistance Management System,Services and Amenities,official,0,4,0,75,The City of Calgary,Calgary Neighbourhoods,null,Daily,null,No,"['subsidized', 'fair entry', 'subsidy', 'low-income']"
+Finance Investment Returns,Government,official,0,80,0,232,The City of Calgary,Finance,null,null,null,null,['citizen-dashboard']
+Finance Long Term Debt,Government,official,0,81,0,282,The City of Calgary,Finance,null,null,null,null,['citizen-dashboard']
+Fire - Contained Bar,Government,official,0,453,0,187,null,null,null,null,null,null,['citizen-dashboard']
+Fire - Response Time timeline,Government,official,0,466,0,213,null,null,null,null,null,null,['citizen-dashboard']
+Fire 2010 Emergency Pie Chart,Government,official,0,484,0,128,null,null,null,null,null,null,['citizen-dashboard']
+Fire 2015 Emergency Pie chart,Government,official,0,467,0,360,null,null,null,null,null,null,['citizen-dashboard']
+Fire Emergency Calls - Stacked by type,Government,official,0,513,0,555,null,null,null,null,null,null,['citizen-dashboard']
+Fire Emergency Calls- 2015 Tree,Government,official,0,487,0,163,null,null,null,null,null,null,['citizen-dashboard']
+Fire Emergency Calls- Column Fire,Government,official,0,487,0,162,null,null,null,null,null,null,['citizen-dashboard']
+Fire Emergency Response Calls,Government,official,0,559,0,4171,The City of Calgary,Calgary Fire Department,null,Daily,null,null,['citizen-dashboard']
+Fire Emergency Response Calls Daily,Government,official,0,159,0,207,The City of Calgary,Calgary Fire Department,null,Daily,null,null,['citizen-dashboard']
+Fire Emergency Response Calls Year to Date,Government,official,0,157,0,178,The City of Calgary,Calgary Fire Department,null,Daily,null,null,['citizen-dashboard']
+Fire Response Flame Spread,Government,official,0,198,0,239,The City of Calgary,Calgary Fire Department,null,Irregular,null,null,['citizen-dashboard']
+Fire Response Time,Government,official,0,209,0,943,The City of Calgary,Calgary Fire Department,null,Monthly,null,null,['citizen-dashboard']
+Fire Response Time Year to Date,Government,official,0,102,0,280,The City of Calgary,Calgary Fire Department,null,Monthly,null,null,['citizen-dashboard']
+"Flood extents from June 22, 2013",Environment,official,0,1506,0,1018,The City of Calgary,Water Resources and Water Services,null,None,2013-06-22,Yes,"['flood', 'water', 'river', 'inundation']"
+Forecast Population and Jobs by Transportation Zone 2015 - 2076,Transportation/Transit,official,0,160,0,851,The City of Calgary,Calgary Growth Strategies,null,Irregular,2015 to 2076,Yes,"['jobs', 'population', 'forecast', 'zone', 'mdp']"
+Green Line,Transportation/Transit,official,0,16,0,103,The City of Calgary,null,null,null,null,Yes,null
+Green Line Alignment,Transportation/Transit,official,0,96,0,124,The City of Calgary,null,null,Irregular,null,Yes,null
+Green Line Stations,Transportation/Transit,official,0,99,0,139,The City of Calgary,null,null,Irregular,null,Yes,null
+Habitat,Environment,official,0,346,0,1652,The City of Calgary,Calgary Parks,null,Weekly,null,Yes,"['parks', 'natural areas']"
+Habitat,Environment,official,0,29,0,22,The City of Calgary,Calgary Parks,null,Weekly,null,Yes,null
+Heat map - Based on 2018 Traffic Incidents,Transportation/Transit,official,0,17,0,528,The City of Calgary,Roads,Advanced Traveler Information System (ATIS),10 minutes,December 2016-present,null,null
+Heat map - Based on all Traffic Incidents,Transportation/Transit,official,0,18,0,3919,The City of Calgary,Roads,Advanced Traveler Information System (ATIS),10 minutes,December 2016-present,null,null
+Heat Map of Pedestrian Incidents (2017),Transportation/Transit,community,0,585,0,1073,The City of Calgary,Transportation Planning,null,null,null,Yes,"['traffic', 'incident', 'archive', 'log']"
+Heritage Trees in Calgary,Environment,official,0,25,0,1624,null,null,null,null,null,null,null
+Historic City Annexation,Base Maps,official,0,28,0,1,The City of Calgary,Calgary Growth Strategies,null,Irregular,null,Yes,null
+Historic City Annexation,Base Maps,official,0,127,0,2797,The City of Calgary,Calgary Growth Strategies,null,Irregular,null,Yes,"['boundary', 'boundaries', 'limit', 'limits', 'annex', 'annexation']"
+Historic City Limits,Base Maps,official,0,112,0,829,The City of Calgary,Calgary Growth Strategies,null,Irregular,null,Yes,"['boundary', 'boundaries', 'limit', 'limits', 'annex', 'annexation']"
+Historic City Limits,Base Maps,official,0,15,0,12,The City of Calgary,Calgary Growth Strategies,null,Irregular,null,Yes,null
+Historic Resource,Recreation and Culture,official,0,542,0,2750,The City of Calgary,Planning and Development,null,Monthly,null,Yes,null
+Historic Resource Data Lens,Recreation and Culture,official,0,7,0,1634,null,null,null,null,null,null,null
+Historic Resource Original Use Type,Recreation and Culture,official,0,5,0,162,The City of Calgary,Planning and Development,null,null,null,Yes,null
+Historical Air Quality,Environment,official,0,544,0,4737,Other,Other - Not City of Calgary,null,Monthly,1980-Present (no 1981 data),Yes,"['air', 'quality', 'historical', 'station', 'aqhi', 'parameter']"
+Historical air quality by parameter,Environment,official,0,6,0,435,Other,Other - Not City of Calgary,null,Monthly,1980-Present (no 1981 data),Yes,null
+Historical Calgary Community Populations,Demographics,official,0,11,0,685,null,null,null,null,null,null,null
+Historical Community Populations,Demographics,official,0,517,0,2210,The City of Calgary,Calgary Growth Strategies,null,Irregular,null,null,"['census', 'population', 'community', 'historical']"
+Historical Community Populations and Dwelling Counts,Demographics,official,0,9,0,377,null,null,null,null,null,null,null
+Historical Rainfall,Environment,official,0,1254,0,12430,The City of Calgary,Water Resources and Water Services,Tipping bucket rainfall gauges measure at 5 minute intervals,Daily,1988-Present,Yes,"['rain', 'rainfall', 'environmental', 'precip', 'precipitation', 'climate']"
+Hours of service provided by Calgary Transit,Transportation/Transit,official,0,21,0,87,The City of Calgary,Calgary Transit,null,Monthly,2007-Present,No,"['service hours', 'bus service', 'ctrain service', 'operating hours']"
+Hydrology - Line,Environment,official,0,21,0,6,The City of Calgary,Corporate Analytics and Innovation,null,Irregular,null,Yes,null
+Hydrology - Line,Environment,official,0,434,0,961,The City of Calgary,Corporate Analytics and Innovation,null,Irregular,null,Yes,['river']
+Hydrology,Environment,official,0,71,0,62,The City of Calgary,Corporate Analytics and Innovation,null,Irregular,null,Yes,null
+Hydrology,Environment,official,0,1582,0,3299,The City of Calgary,Corporate Analytics and Innovation,null,Irregular,null,Yes,"['river', 'water']"
+ICI - Accommodation and Food Services Garbage Composition - Diversion Potential,Help and Information,official,0,0,0,20,The City of Calgary,Waste and Recycling Services,null,As needed,2019,No,null
+ICI - Accommodation and Food Services Garbage Composition - Material Category,Help and Information,official,0,2,0,11,The City of Calgary,Waste and Recycling Services,null,As needed,2019,No,null
+ICI - Accommodation and Food Services Garbage Composition - Proper Disposal Location,Help and Information,official,0,0,0,11,The City of Calgary,Waste and Recycling Services,null,As needed,2019,No,null
+ICI - Health Care and Social Assistance Garbage Composition - Diversion Potential,Help and Information,official,0,1,0,10,The City of Calgary,Waste and Recycling Services,null,As needed,2019,No,null
+ICI - Health Care and Social Assistance Garbage Composition - Material Category,Help and Information,official,0,6,0,9,The City of Calgary,Waste and Recycling Services,null,As needed,2019,No,null
+ICI - Health Care and Social Assistance Garbage Composition - Proper Disposal Location,Help and Information,official,0,0,0,12,The City of Calgary,Waste and Recycling Services,null,As needed,2019,No,null
+ICI - Manufacturing Garbage Composition - Diversion Potential,Help and Information,official,0,0,0,12,The City of Calgary,Waste and Recycling Services,null,As needed,2019,No,null
+ICI - Manufacturing Garbage Composition - Material Category,Help and Information,official,0,1,0,11,The City of Calgary,Waste and Recycling Services,null,As needed,2019,No,null
+ICI - Manufacturing Garbage Composition - Proper Disposal Location,Help and Information,official,0,4,0,9,The City of Calgary,Waste and Recycling Services,null,As needed,2019,No,null
+ICI - Public Administration Garbage Composition - Diversion Potential,Help and Information,official,0,3,0,25,The City of Calgary,Waste and Recycling Services,null,As needed,2019,No,null
+ICI - Public Administration Garbage Composition - Proper Disposal Location,Help and Information,official,0,3,0,14,The City of Calgary,Waste and Recycling Services,null,As needed,2019,No,null
+ICI - Retail Garbage Composition - Diversion Potential,Help and Information,official,0,2,0,34,The City of Calgary,Waste and Recycling Services,null,As needed,2019,No,null
+ICI - Retail Garbage Composition - Material Category,Help and Information,official,0,3,0,15,The City of Calgary,Waste and Recycling Services,null,As needed,2019,No,null
+ICI - Retail Garbage Composition - Proper Disposal Location,Help and Information,official,0,2,0,11,The City of Calgary,Waste and Recycling Services,null,As needed,2019,No,null
+Incidents by Year,Government,official,0,8,0,138,null,null,null,null,null,null,null
+"Industrial, Commercial, and Institutional Garbage Composition",Help and Information,official,0,20,0,133,The City of Calgary,Waste and Recycling Services,null,As needed,2019,No,"['waste', 'garbage', 'waste composition']"
+Intersection Safety Cameras,Health and Safety,official,0,110,0,499,The City of Calgary,Calgary Police Service,null,Monthly,null,Yes,"['spped', 'red light', 'camera', 'green light']"
+ISC Locations,Health and Safety,official,0,11,0,174,null,null,null,null,null,null,null
+Jobs by Area,Government,official,0,3,0,114,The City of Calgary,Human Resources,RSS feed,Daily,null,No,null
+Land Use Designation Codes,Base Maps,official,0,200,0,4532,The City of Calgary,Calgary Building Services,null,Daily,null,null,"['land', 'use', 'land use', 'lub', 'land use bylaw']"
+Land Use Districts,Base Maps,official,0,23,0,2663,null,null,null,null,null,null,null
+Land Use Districts,Base Maps,official,0,883,0,2600,The City of Calgary,Planning and Development,null,Weekly,null,Yes,"['land', 'use']"
+Land Use Redesignation Application Locations,null,official,0,1,0,115,null,null,null,null,null,null,null
+Land Use Redesignation Applications,null,official,0,58,0,386,The City of Calgary,Planning and Development,null,Daily,null,Yes,"['loc', 'zone', 'zoning', 'rezone', 'closure', 'plan']"
+Land Use Redesignation Applications by Year,null,official,0,2,0,46,null,null,null,null,null,null,null
+Landfill Setbacks,Environment,official,0,197,0,1742,The City of Calgary,Waste and Recycling Services,null,Weekly,null,Yes,"['landfill', 'setbacks', 'buffer', 'mdp']"
+Landfill Setbacks,Environment,official,0,22,0,8,The City of Calgary,Waste and Recycling Services,null,Weekly,null,Yes,null
+Lanelines,Health and Safety,official,0,189,0,322,The City of Calgary,Roads,null,Weekly,null,Yes,"['bike lane', 'shoulder', 'turn bay', 'yield line', 'residential', 'arterial', 'neighbourhoood play']"
+Lanelines map,Health and Safety,official,0,19,0,169,The City of Calgary,Roads,null,"Weekly, Friday",null,Yes,null
+Licensed Pets,Services and Amenities,official,0,165,0,1110,The City of Calgary,Calgary Community Standards,null,Monthly,Apr. 2018-Present,Yes,"['cats', 'dogs', 'pets', 'license']"
+Licensed Pets Map,Services and Amenities,official,0,17,0,409,null,null,null,null,null,null,null
+Lobbyist Information,Government,official,0,0,0,433,Other,Other - Not City of Calgary,null,None,null,null,"['lobbyist', 'groups']"
+Luminaires,Health and Safety,official,0,131,0,359,The City of Calgary,Roads,null,Monthly,null,Yes,"['lighting', 'led', 'wattage']"
+Major Road Network,Transportation/Transit,official,0,2312,2,5100,The City of Calgary,Corporate Analytics and Innovation,null,Weekly,null,Yes,"['roads', 'mdp', 'street']"
+Major Road Network,Transportation/Transit,official,0,191,0,60,The City of Calgary,Corporate Analytics and Innovation,null,Weekly,null,Yes,null
+Map of Fire Stations,null,official,0,2,0,188,The City of Calgary,Calgary Fire Department,manual,weekly,null,Yes,null
+"Map of flood extents from June 22, 2013",Environment,official,0,17,0,593,The City of Calgary,Water Resources and Water Services,null,null,2013-06-22,Yes,null
+Map of Historic Resources in Calgary,Recreation and Culture,official,0,19,0,660,The City of Calgary,Planning and Development,null,null,null,Yes,null
+Map of Short Term Rentals,Business and Economic Activity,official,0,5,0,535,null,null,null,null,null,null,null
+Map of Traffic Control Signals,Health and Safety,official,0,20,0,576,null,null,null,null,null,null,null
+Map of Traffic Signs,Transportation/Transit,official,0,2,0,309,The City of Calgary,Roads,null,Daily,null,Yes,null
+mdp,Base Maps,official,0,56,0,234,The City of Calgary,Corporate Analytics and Innovation,null,null,null,Yes,['mdp']
+Monthly 311 Service Requests,Services and Amenities,official,0,3,0,67,The City of Calgary,Customer Service and Communications,null,Daily,2012-present,Yes,null
+Monthly Economic Indicators,Business and Economic Activity,official,0,114,0,584,The City of Calgary,Finance,null,Monthly,null,No,"['wage', 'employment', 'unemployment', 'housing', 'retail', 'inflation']"
+Monthly Ridership By Year,null,official,0,1,0,89,null,null,null,null,null,null,null
+Monthly solar energy production at City of Calgary sites,Environment,official,0,15,0,179,null,null,null,null,null,null,null
+Monthly Transit Operating Hours,null,official,0,1,0,21,null,null,null,null,null,null,null
+Multi Family Garbage Composition - Material Category,Help and Information,official,0,1,0,50,The City of Calgary,Waste and Recycling Services,null,As needed,2019,No,null
+Multi Family Garbage Composition - Proper Disposal Location,Help and Information,official,0,4,0,34,The City of Calgary,Waste and Recycling Services,null,As needed,2019,No,null
+Multi Family Garbage Composition,Help and Information,official,0,9,0,23,The City of Calgary,Waste and Recycling Services,null,As needed,2019,No,"['waste', 'garbage', 'waste composition']"
+Multi-Year Flood Maps Views,null,official,0,18,0,279,null,null,null,null,null,null,null
+Multi-year RTM Road Network scenarios,Transportation/Transit,official,0,17,0,199,null,null,null,null,null,null,null
+Municipal Development Plan Primary Transit Network,null,official,0,17,0,105,null,null,null,null,null,null,['mdp']
+Municipal Development Plan Primary Transit Network Lines,null,official,0,97,0,70,The City of Calgary,Planning and Development,null,Irregular,null,null,['mdp']
+Municipal Development Plan Primary Transit Network Points,null,official,0,90,0,67,The City of Calgary,Planning and Development,null,Irregular,null,null,['mdp']
+Municipal Development Plan Urban Structure,null,official,0,17,0,147,null,null,null,null,null,null,['mdp']
+Municipal Development Plan Urban Structure,null,official,0,110,0,213,The City of Calgary,Planning and Development,null,Irregular,null,Yes,['mdp']
+Natural Areas,Environment,official,0,1025,0,2436,The City of Calgary,Calgary Parks,null,Weekly,null,Yes,"['parks', 'natural areas']"
+Natural Areas,Environment,official,0,62,0,19,The City of Calgary,Calgary Parks,null,Weekly,null,Yes,null
+Noise Exposure Forecast Contours,null,official,0,18,0,91,The City of Calgary,Planning and Development,null,Irregular,null,Yes,"['airport', 'avpa', 'nef']"
+Non permanent streams,Environment,official,0,224,0,674,The City of Calgary,Water Resources and Water Services,"modelling, orthophoto interpretation, field sampling validation and calibration",Irregular,null,Yes,"['streams', 'intermittent', 'ephemeral', 'non-permanent', 'overland flow paths', 'temporary', 'seasonal', 'semi-permanent', 'hydrology', 'riparian']"
+Non permanent streams map,Environment,official,0,36,0,487,null,null,null,null,null,null,null
+"Number of public trees, by community",Environment,official,0,19,0,268,null,null,null,null,null,null,null
+Official Results - General Election 2013,Government,official,0,107,0,151,The City of Calgary,City Clerk's Office,null,None,null,null,"['election', 'vote', 'voting']"
+Official Results - General Election 2017,Government,official,0,219,0,2103,The City of Calgary,City Clerk's Office,null,None,null,null,"['election', 'vote', 'voting']"
+On-Street Parking Rates,null,official,0,2,0,15,The City of Calgary,Other Business Unit,null,Irregular,null,null,null
+On-Street Parking Zones,Transportation/Transit,official,0,2,0,206,null,null,null,null,null,Yes,null
+On-Street Parking Zones,Transportation/Transit,official,0,111,1,449,The City of Calgary,Other Business Unit,null,Weekly,null,Yes,"['cpa', 'parkplus']"
+Open Calgary Terms of Use,Government,official,0,7,0,31238,The City of Calgary,Corporate Analytics and Innovation,null,null,null,null,null
+Open Data Routine Maintenance Calendar,null,official,0,462,0,377,Other,Other - Not City of Calgary,null,As required,null,No,"['schedule', 'maintenance', 'outage']"
+Other QoL Indicators,Government,official,0,208,0,712,The City of Calgary,Customer Service and Communications,null,null,null,No,null
+Parcel Address,Base Maps,official,0,975,4,6252,The City of Calgary,Corporate Analytics and Innovation,Digitized from plans,Weekly,null,Yes,['address']
+Parcel Address and lat/long,Base Maps,official,0,857,0,2056,The City of Calgary,Corporate Analytics and Innovation,Digitized from plans,null,null,Yes,['address']
+Parcel Address Data Lens,Base Maps,official,0,17,0,2294,null,null,null,null,null,null,null
+Parcel Address Map,Services and Amenities,official,0,1565,0,12605,The City of Calgary,Corporate Analytics and Innovation,null,Weekly,null,Yes,['address']
+Parks Administrative Boundaries,Recreation and Culture,official,0,19,0,13,The City of Calgary,Calgary Parks,null,Irregular,null,Yes,null
+Parks Administrative Boundaries,Recreation and Culture,official,0,230,0,505,The City of Calgary,Calgary Parks,null,Irregular,null,Yes,"['parks', 'boundaries']"
+Parks Amenity Equipment,Recreation and Culture,official,0,223,0,394,The City of Calgary,Calgary Parks,null,Weekly,null,Yes,"['parks', 'amenities']"
+Parks Barriers,Base Maps,official,0,10,0,3,The City of Calgary,Calgary Parks,null,Weekly,null,Yes,null
+Parks Barriers,Base Maps,official,0,100,0,215,The City of Calgary,Calgary Parks,null,Weekly,null,Yes,"['parks', 'barriers']"
+Parks Bollards,Recreation and Culture,official,0,276,0,251,The City of Calgary,Calgary Parks,null,Weekly,null,Yes,"['parks', 'bollards']"
+Parks Buildings,null,official,0,13,0,79,The City of Calgary,Calgary Parks,null,Irregular,null,Yes,null
+Parks Cemeteries,Services and Amenities,official,0,17,0,4,The City of Calgary,Calgary Parks,null,Irregular,null,Yes,null
+Parks Cemeteries,Services and Amenities,official,0,105,0,376,The City of Calgary,Calgary Parks,null,Irregular,null,Yes,"['parks', 'cemetaries']"
+Parks Elements map,Recreation and Culture,official,0,15,0,121,null,null,null,null,null,null,null
+Parks Hard Surface Areas,Recreation and Culture,official,0,468,0,451,The City of Calgary,Calgary Parks,null,Weekly,null,Yes,['parks']
+Parks Hard Surface Areas,Recreation and Culture,official,0,16,0,9,The City of Calgary,Calgary Parks,null,Weekly,null,Yes,null
+Parks Monuments,Recreation and Culture,official,0,1,0,64,The City of Calgary,Calgary Parks,,Weekly,,Yes,null
+Parks Monuments,Recreation and Culture,official,0,276,0,315,The City of Calgary,Calgary Parks,null,Weekly,null,Yes,"['parks', 'monuments']"
+Parks Off- Leash,Recreation and Culture,official,0,82,0,10,The City of Calgary,Calgary Parks,null,Weekly,null,Yes,null
+Parks Off- Leash,Recreation and Culture,official,0,902,0,1339,The City of Calgary,Calgary Parks,null,Weekly,null,Yes,"['dogs', 'off-leash']"
+Parks Pathways,Recreation and Culture,official,0,879,0,1714,The City of Calgary,Calgary Parks,null,Weekly,null,Yes,['pathways']
+Parks Planting Beds,Base Maps,official,0,10,0,6,The City of Calgary,Calgary Parks,null,Weekly,null,Yes,null
+Parks Planting Beds,Base Maps,official,0,74,0,179,The City of Calgary,Calgary Parks,null,Weekly,null,Yes,"['parks', 'plants']"
+Parks Plumbing Fixtures - Drinks for Dogs,Recreation and Culture,official,0,18,0,239,The City of Calgary,Calgary Parks,null,null,null,Yes,null
+Parks Plumbing Fixtures,Recreation and Culture,official,0,290,0,171,The City of Calgary,Calgary Parks,null,Weekly,null,Yes,null
+Parks Plumbing Fixtures Map,Recreation and Culture,official,0,18,0,70,The City of Calgary,Calgary Parks,null,null,null,Yes,null
+Parks Seating - West-facing wooden benches to watch the sunset,Recreation and Culture,official,0,17,0,1238,The City of Calgary,Calgary Parks,null,null,null,Yes,null
+Parks Seating,Recreation and Culture,official,0,168,0,317,The City of Calgary,Calgary Parks,null,Weekly,null,Yes,"['parks', 'seating']"
+Parks Seating Map,null,official,0,20,0,155,null,null,null,null,null,null,null
+Parks Site Elements,Recreation and Culture,official,0,117,0,175,The City of Calgary,Calgary Parks,null,Weekly,null,Yes,"['parks', 'names', 'sites', 'elements']"
+Parks Sites,Recreation and Culture,official,0,455,0,1007,The City of Calgary,Calgary Parks,null,Weekly,null,Yes,['parks']
+Parks Sites,Recreation and Culture,official,0,66,0,22,The City of Calgary,Calgary Parks,null,Weekly,null,Yes,null
+Parks Sport Equipment,Recreation and Culture,official,0,234,0,210,The City of Calgary,Calgary Parks,null,Weekly,null,Yes,"['parks', 'playground']"
+Parks Sport Grouping Areas,Recreation and Culture,official,0,113,0,287,The City of Calgary,Calgary Parks,null,Weekly,null,Yes,"['parks', 'sports']"
+Parks Sport Grouping Areas,Recreation and Culture,official,0,24,0,5,The City of Calgary,Calgary Parks,null,Weekly,null,Yes,null
+Parks Sport Surfaces,Recreation and Culture,official,0,305,0,557,The City of Calgary,Calgary Parks,null,Weekly,null,Yes,"['parks', 'sports']"
+Parks Sport Surfaces,Recreation and Culture,official,0,31,0,5,The City of Calgary,Calgary Parks,null,Weekly,null,Yes,null
+Parks Trash Receptacles,Recreation and Culture,official,0,272,0,246,The City of Calgary,Calgary Parks,null,Weekly,null,Yes,"['parks', 'recycling', 'garbage']"
+Parks Turf,Recreation and Culture,official,0,193,0,558,The City of Calgary,Calgary Parks,null,Weekly,null,Yes,"['parks', 'turf']"
+Parks Turf,Recreation and Culture,official,0,24,0,18,The City of Calgary,Calgary Parks,null,Weekly,null,Yes,null
+Parks Water Bodies,Environment,official,0,16,0,95,The City of Calgary,Calgary Parks,null,Irregular,null,Yes,"['water', 'environmental']"
+Parks Water Delivery,Recreation and Culture,official,0,179,0,165,The City of Calgary,Calgary Parks,null,Weekly,null,Yes,['parks']
+Parks Water Delivery Coverage,Recreation and Culture,official,0,16,0,4,The City of Calgary,Calgary Parks,null,Weekly,null,Yes,null
+Parks Water Delivery Coverage,Recreation and Culture,official,0,69,0,147,The City of Calgary,Calgary Parks,null,Weekly,null,Yes,"['parks', 'water']"
+Parks Water Features,Recreation and Culture,official,0,150,0,588,The City of Calgary,Water Resources and Water Services,null,Weekly,null,null,"['parks', 'water features']"
+Pathways Connector Data,Recreation and Culture,official,0,27,0,16,The City of Calgary,Calgary Parks,null,Weekly,null,Yes,null
+Pathways Connector Data,Recreation and Culture,official,0,529,0,915,The City of Calgary,Calgary Parks,null,Weekly,null,Yes,['pathways']
+Pedestrian Collision Injuries,Health and Safety,official,0,272,0,1600,Other,Other - Not City of Calgary,null,Annual,null,null,"['safe', 'pedestrian', 'injur', 'collision', 'accident', 'vehic']"
+Pedestrian Traffic Count,Transportation/Transit,official,0,6,0,215,null,null,null,null,null,null,null
+Pets Impound Outcomes,Services and Amenities,official,0,116,0,452,The City of Calgary,Calgary Community Standards,null,Monthly,Jan. 2012-Present,Yes,"['pets', 'dogs', 'cats', 'impound']"
+Pets Impound Outcomes Annually,Services and Amenities,official,0,6,0,92,null,null,null,null,null,null,null
+Pets Impound Outcomes Pie chart,Services and Amenities,official,0,6,0,93,null,null,null,null,null,null,null
+Playground Equipment,Recreation and Culture,official,0,231,0,390,The City of Calgary,Calgary Parks,null,Weekly,null,Yes,"['playground', 'equipment', 'apparatus']"
+Playground Equipment map,Recreation and Culture,official,0,562,0,501,null,null,null,null,null,Yes,"['playground', 'equipment', 'apparatus']"
+Playground Fall Surface,Recreation and Culture,official,0,93,0,348,The City of Calgary,Calgary Parks,null,Weekly,null,Yes,"['parks', 'playground']"
+Playground Fall Surface,Recreation and Culture,official,0,15,0,11,The City of Calgary,Calgary Parks,null,Weekly,null,Yes,null
+Plus 15,Transportation/Transit,official,0,62,0,22,The City of Calgary,Planning and Development,null,Monthly,null,Yes,null
+Plus 15,Transportation/Transit,official,0,91170,0,2066,The City of Calgary,Planning and Development,null,Monthly,null,Yes,"['plus 15', 'plus15']"
+Plus 15 Bridges,Transportation/Transit,official,0,1,0,36,null,null,null,null,null,null,null
+Plus 15 Bridges,Transportation/Transit,official,0,36,0,115,The City of Calgary,Roads,null,null,null,Yes,"['plus 15', 'plus15']"
+Police Districts,Health and Safety,official,0,26,0,3,The City of Calgary,Calgary Police Service,null,Irregular,null,Yes,null
+Police Districts,Health and Safety,official,0,117,0,564,The City of Calgary,Calgary Police Service,null,Irregular,null,Yes,"['police', 'district']"
+Police Zones,Health and Safety,official,0,24,0,3,The City of Calgary,Calgary Police Service,null,Irregular,null,Yes,null
+Police Zones,Health and Safety,official,0,112,0,453,The City of Calgary,Calgary Police Service,null,Irregular,null,Yes,"['police', 'zone']"
+Policy Plan Boundaries,Government,official,0,17,0,126,null,null,null,null,null,null,['mdp']
+Policy Plan Boundaries,Government,official,0,126,0,207,The City of Calgary,Planning and Development,null,Irregular,null,Yes,"['mdp', 'planning']"
+Primary Electricity Usage,Environment,official,0,14,0,620,The City of Calgary,Corporate Analytics and Innovation,null,Monthly,Dec 2013 - Present,No,null
+Primary Natural Gas Usage,Environment,official,0,4,0,117,The City of Calgary,Corporate Analytics and Innovation,null,Monthly,2014 - Present,No,null
+Property Assessments,null,official,0,1155,3,9389,The City of Calgary,Assessment,null,Weekly,2005-present,Yes,"['assessment', 'assessed value', 'property', 'value']"
+Proposed Airport Vicinity Protection Area (AVPA),null,official,0,3,0,16,The City of Calgary,Planning and Development,null,null,null,Yes,"['avpa', 'nef']"
+Proposed Noise Exposure Forecast (NEF),null,official,0,2,0,6,The City of Calgary,Planning and Development,null,null,null,Yes,"['nef', 'avpa']"
+Prosperous City Indicators,Government,official,0,183,0,773,The City of Calgary,null,null,null,null,null,null
+Public Art,Recreation and Culture,official,0,205,0,1385,The City of Calgary,Calgary Recreation,null,Irregular,null,Yes,"['art', 'public art', 'culture']"
+Public Art Locations,Recreation and Culture,official,0,18,0,269,null,null,null,null,null,null,null
+Public Bicycle Parking,Transportation/Transit,official,0,94,0,295,The City of Calgary,Transportation Planning,null,Irregular,null,Yes,"['bike', 'bicycle', 'parking']"
+Public Bicycle Parking Map,Transportation/Transit,official,0,15,0,93,null,null,null,null,null,null,null
+Public Bicycle Parking Map 2,Transportation/Transit,official,0,418,0,76,The City of Calgary,Transportation Planning,null,null,null,Yes,"['bike', 'bicycle', 'parking']"
+Public Trees,Environment,official,0,1081,0,5105,The City of Calgary,Calgary Parks,null,Weekly,null,Yes,"['tree', 'forest', 'park']"
+Public Water Service Lines,Health and Safety,official,0,85,0,1278,The City of Calgary,Water Resources and Water Services,null,Monthly,null,Yes,"['water', 'pipes', 'drinking']"
+Public Water Service Lines Data Lens,Health and Safety,official,0,3,0,128,null,null,null,null,null,null,null
+Public Water Service Lines map,Health and Safety,official,0,4,0,513,The City of Calgary,Water Resources and Water Services,null,null,null,Yes,null
+Quality of life indicators,null,official,0,199,0,1231,The City of Calgary,Customer Service and Communications,null,null,null,null,['citizen-dashboard']
+Rain Gauge locations,Base Maps,official,0,112,0,328,The City of Calgary,Water Resources and Water Services,null,Annual,null,Yes,"['rain', 'gauge', 'location']"
+Rain Gauge Map,Base Maps,official,0,16,0,715,The City of Calgary,Water Resources and Water Services,null,Annual,null,Yes,null
+Rainfall Data Lens,Environment,official,0,22,0,2394,null,null,null,null,null,null,null
+Recreation Facilities,Recreation and Culture,official,0,317,0,891,The City of Calgary,Calgary Recreation,manual,Weekly,null,Yes,"['recreation', 'facilities']"
+Recreation Facilities,Recreation and Culture,official,0,1087,0,1006,The City of Calgary,Calgary Recreation,manual,as required,null,Yes,"['recreation', 'facilities']"
+Recreation Registered Programs,Government,official,0,125,0,541,The City of Calgary,Calgary Recreation,null,Daily,null,null,['citizen-dashboard']
+Regulatory Flood Hazard Map Steplines,Environment,official,0,109,0,524,The City of Calgary,Water Resources and Water Services,null,Irregular,null,Yes,"['100 year', 'steplines', 'bylaw', 'hazard', 'fringe', 'floodplain', 'floodway']"
+Regulatory Flood Hazard Map Steplines,Environment,official,0,17,0,3,The City of Calgary,Water Resources and Water Services,null,Irregular,null,Yes,null
+Regulatory Flood Map (Bylaw Flood Hazard Map),Environment,official,0,19,0,476,The City of Calgary,Water Resources and Water Services,null,null,null,Yes,null
+Regulatory Flood Map (Bylaw Flood Hazard),Environment,official,0,333,0,989,The City of Calgary,Water Resources and Water Services,null,Irregular,null,Yes,"['flood', 'fringe', 'floodway', 'river', 'overland', 'floodplain', 'hazard', 'bylaw', '100 year']"
+Residential Parking Zones,Transportation/Transit,official,0,49,0,99,The City of Calgary,Other Business Unit,null,Weekly,null,Yes,"['cpa', 'parkplus']"
+Residential Parking Zones,Transportation/Transit,official,0,127,0,790,The City of Calgary,Roads,null,Monthly,null,Yes,['parking']
+Residential Parking Zones,Transportation/Transit,official,0,33,0,9,The City of Calgary,Roads,null,Monthly,null,Yes,null
+Riparian Areas - Variable Width,Environment,official,0,15,0,10,The City of Calgary,Water Resources and Water Services,null,Irregular,null,Yes,null
+Riparian Areas - Variable Width,Environment,official,0,241,0,970,The City of Calgary,Water Resources and Water Services,null,Irregular,null,Yes,"['riparian areas', 'rivers', 'streams']"
+Riparian Management Zones,Environment,official,0,20,0,76,The City of Calgary,Water Resources and Water Services,null,Irregular,null,Yes,"['riparian', 'developed', 'conservation', 'flood', 'erosion', 'restoration', 'recreation']"
+Riparian Management Zones Map,Environment,official,0,2,0,58,The City of Calgary,Water Resources and Water Services,null,Irregular,null,Yes,null
+River Level and Flow Monitoring Stations,Environment,official,0,108,0,342,Other,Other - Not City of Calgary,Remote equipment,Daily,null,Yes,"['flow', 'level', 'bow', 'elbow']"
+River Levels and Flows,Environment,official,0,100,0,838,Other,Other - Not City of Calgary,Remote equipment,Daily,null,Yes,"['flow', 'level', 'elbow', 'glenmore', 'bearspaw']"
+Rivers And Streams - Environmental Reserve Setback Guideline,Environment,official,0,14,0,4,The City of Calgary,Water Resources and Water Services,null,Irregular,null,Yes,null
+Rivers And Streams - Environmental Reserve Setback Guideline,Environment,official,0,268,0,1474,The City of Calgary,Water Resources and Water Services,null,Irregular,null,Yes,"['rivers', 'setbacks', 'riparian']"
+Road Construction Projects,Transportation/Transit,official,0,84,0,230,The City of Calgary,Transportation Infrastructure,Web page content,Daily,null,Yes,"['new', 'intersection', 'upgrade', 'rehabilitation', 'construction']"
+Road Construction Projects map,Transportation/Transit,official,0,1,0,147,null,null,null,null,null,null,null
+Road Stencil lines,Health and Safety,official,0,18,0,251,The City of Calgary,Roads,null,"Weekly, Friday",null,Yes,null
+Road Stencils,Health and Safety,official,0,194,0,436,The City of Calgary,Roads,null,Weekly,null,Yes,"['stencil', 'speed hump', 'bike loop', 'yield marking', 'dedicated lane']"
+Roads- Condition of assets column,Transportation/Transit,official,0,464,0,272,null,Roads,null,null,null,null,['citizen-dashboard']
+Roads- Potholes stacked column,Government,official,0,487,0,418,null,null,null,null,null,null,['citizen-dashboard']
+Roads Summer- Gravel Back Lanes column,Government,official,0,461,0,270,,,,,,,['citizen-dashboard']
+ROUTE,Transportation/Transit,official,0,26,0,125,The City of Calgary,Calgary Transit,Automated Passenger Counter (APC),None,20180507-20180625 and 20190506-20190623,Yes,null
+RTM Road Network Scenarios,Transportation/Transit,official,0,120,0,360,The City of Calgary,Transportation Planning,Data is extracted from the Calgary Regional Transportation Model. ,Irregular,2015 - 2076,Yes,"['rtm', 'regional', 'transportation', 'model', 'network', 'input', 'assumptions', 'ctp', 'mdp', 'scenario', 'series', '2015', '2028', '2039', '2048', '2076', 'horizon']"
+SAMPLE,Transportation/Transit,official,0,31,0,148,The City of Calgary,Calgary Transit,Automated Passenger Counter (APC),None,20180507-20180625 and 20190506-20190623,No,null
+School Enrolment Data,Demographics,official,0,246,0,1529,Other,Other - Not City of Calgary,null,Annual,2013-Present,No,"['school', 'grade', 'total', 'authority', 'name']"
+School Locations,Services and Amenities,official,0,1025,0,7821,The City of Calgary,Other - Not City of Calgary,null,Monthly,null,Yes,"['school', 'grades', 'elementary', 'junior high', 'senior high', 'post-secondary']"
+School Locations and Communities Map,Services and Amenities,official,0,1023,0,4928,The City of Calgary,Other - Not City of Calgary,null,Annual,null,Yes,"['school', 'grades', 'elementary', 'junior high', 'senior high', 'post-secondary']"
+School locations Data Lens,Services and Amenities,official,0,20,0,2147,The City of Calgary,Other - Not City of Calgary,null,null,null,Yes,"['school', 'grades', 'elementary', 'junior high', 'senior high', 'post-secondary']"
+School Locations map,Services and Amenities,official,0,800,0,1187,The City of Calgary,Other - Not City of Calgary,null,Annual,null,Yes,"['school', 'grades', 'elementary', 'junior high', 'senior high', 'post-secondary']"
+School Parking Zones,Transportation/Transit,official,0,43,0,88,The City of Calgary,Other Business Unit,null,Weekly,null,Yes,"['cpa', 'parkplus']"
+SDAB Appeals by Community,Government,official,0,18,0,57,The City of Calgary,City Clerk's Office,null,Weekly,2014-Present,Yes,null
+SDAB Appeals by Property Type,Government,official,0,7,0,54,null,null,null,null,null,null,null
+SDAB Appeals By Ward,Government,official,0,16,0,30,The City of Calgary,City Clerk's Office,null,Weekly,2014-Present,Yes,null
+SDAB Decisions By Year,Government,official,0,47,0,150,The City of Calgary,City Clerk's Office,null,Weekly,2014-Present,Yes,"['sdab', 'hearing', 'appeals', 'board', 'rulings', 'decision', 'development', 'permit']"
+SDAB Decisions Comparison,Government,official,0,7,0,30,The City of Calgary,City Clerk's Office,null,Weekly,2014-Present,Yes,null
+SDAB Decisions Map,Government,official,0,21,0,2039,null,null,null,null,null,null,null
+SDAB Decisions Pie Chart by Property Type,Government,official,0,6,0,82,null,null,null,null,null,null,null
+Secondary Suites,Business and Economic Activity,official,0,541,0,3450,The City of Calgary,Calgary Approvals Coordination,null,Weekly,null,Yes,"['secondary', 'suites', 'permit']"
+Secondary Suites Approved Annually,Business and Economic Activity,official,0,8,0,88,The City of Calgary,Calgary Approvals Coordination,null,Weekly,null,Yes,null
+Secondary Suites by Community Map,Business and Economic Activity,official,0,20,0,478,The City of Calgary,Calgary Approvals Coordination,null,Weekly,null,Yes,null
+Secondary Suites by Ward Map,Business and Economic Activity,official,0,19,0,82,The City of Calgary,Calgary Approvals Coordination,null,Weekly,null,Yes,null
+Secondary Suites Data Lens,Business and Economic Activity,official,0,26,0,1966,The City of Calgary,Calgary Approvals Coordination,null,Weekly,null,Yes,"['secondary', 'suites']"
+Secondary Suites map with Ward boundaries,Business and Economic Activity,official,0,590,0,575,The City of Calgary,Calgary Approvals Coordination,null,Weekly,null,Yes,"['secondary', 'suites']"
+Senior management expenses,Government,official,0,16,0,302,The City of Calgary,Finance,null,Semiannual,January 2020-,null,"['expense', 'disclosure', 'senior', 'management', 'expenses']"
+Shared Mobility Pilot - Origin and Destination Grid,Transportation/Transit,official,0,46,0,306,The City of Calgary,Transportation Planning,null,None,null,Yes,null
+Shared Mobility Pilot - Origin and Destination Grids,Transportation/Transit,official,0,1,0,175,null,null,null,null,null,null,null
+Shared Mobility Pilot - Trip Segment Counts,Transportation/Transit,official,0,38,0,150,The City of Calgary,Transportation Planning,null,None,null,Yes,null
+Shared Mobility Pilot - Trip Segment Counts,Transportation/Transit,official,0,4,0,121,null,null,null,null,null,null,null
+Shared Mobility Pilot Trip Dates and Times,Transportation/Transit,official,0,1,0,108,null,null,null,null,null,null,null
+Shared Mobility Pilot Trip Starts,Transportation/Transit,official,0,4,0,228,null,null,null,null,null,null,null
+Shared Mobility Pilot Trips,Transportation/Transit,official,0,96,0,884,The City of Calgary,Transportation Planning,null,None,"July 1, 2019 - September 30, 2019",Yes,null
+Short Term Rentals,Business and Economic Activity,official,0,132,0,1094,The City of Calgary,Calgary Approvals Coordination,null,Daily,null,Yes,"['short term rental', 'str', 'lodging house', 'host', 'guest']"
+Short term rentals by Ward,Business and Economic Activity,official,0,1,0,31,The City of Calgary,Calgary Approvals Coordination,null,Daily,null,Yes,null
+Short term rentals data lens,Business and Economic Activity,official,0,4,0,310,null,null,null,null,null,null,null
+Short term rentals in Communities,Business and Economic Activity,official,0,2,0,76,The City of Calgary,Calgary Approvals Coordination,null,Daily,null,Yes,null
+Single Family and Multi Family Garbage Composition,Help and Information,official,0,28,0,219,The City of Calgary,Waste and Recycling Services,null,As needed,2019,No,"['waste', 'garbage', 'waste composition']"
+Single Family Black Cart Garbage Composition - Diversion Potential,Help and Information,official,0,2,0,24,The City of Calgary,Waste and Recycling Services,null,As needed,2019,No,null
+Single Family Black Cart Garbage Composition - Material Category,Help and Information,official,0,2,0,23,The City of Calgary,Waste and Recycling Services,null,As needed,2019,No,null
+Single Family Black Cart Garbage Composition 2019,Help and Information,official,0,2,0,31,The City of Calgary,Waste and Recycling Services,null,As needed,2019,No,null
+Single Family Black Cart Material Diversion Potential,Help and Information,official,0,1,0,50,The City of Calgary,Waste and Recycling Services,null,As needed,2019,No,null
+Single Family Black Cart Proper Disposal Location,Help and Information,official,0,0,0,18,The City of Calgary,Waste and Recycling Services,null,As needed,2019,No,null
+Single family home ownership by Community,Demographics,official,0,6,0,123,The City of Calgary,City Clerk's Office,null,Annually,1998-present,null,null
+Solar Energy Production,Environment,official,0,337,0,1376,The City of Calgary,Corporate Analytics and Innovation,null,Daily,null,null,"['solar', 'pv', 'photovoltaic', 'energy', 'power']"
+Solar Photovoltaic Sites,Environment,official,0,115,0,419,The City of Calgary,Corporate Analytics and Innovation,null,Daily,null,null,"['solar', 'pv', 'photovoltaic', 'energy', 'power']"
+Solar Potential 2012-2013 (images-.tiff),Environment,official,0,185,0,1294,The City of Calgary,Corporate Analytics and Innovation,LiDAR,None,2012-2013,Yes,"['solar potential', 'buildings', 'alternative energy']"
+Solar Potential 2012-2017 (images-.tiff),Environment,official,0,51,0,178,The City of Calgary,Corporate Analytics and Innovation,LiDAR,None,2012-2017,null,null
+Solar Potential 2018 (images-.tiff),Environment,official,0,33,0,86,The City of Calgary,Corporate Analytics and Innovation,LiDAR,None,2018,Yes,"['solar', 'solar potential']"
+Solar Power Energy Utilization,Environment,official,0,11,0,377,null,null,null,null,null,null,null
+Source Watershed Vulnerability,Environment,official,0,166,0,473,The City of Calgary,Water Resources and Water Services,null,Irregular,null,Yes,"['water', 'source water', 'vulnerability', 'drinking water', 'source water protection']"
+Source Watershed Vulnerability,Environment,official,0,9,0,5,The City of Calgary,Water Resources and Water Services,null,Irregular,null,Yes,null
+Speed Limits,Health and Safety,official,0,184,0,484,The City of Calgary,Roads,null,Monthly,null,Yes,"['speed', 'limit']"
+Speed Limits Map,Health and Safety,official,0,3,0,5109,null,null,null,null,null,null,null
+Sport Barriers,Recreation and Culture,official,0,95,0,198,The City of Calgary,Calgary Parks,null,Weekly,null,Yes,null
+Sport Barriers,Recreation and Culture,official,0,19,0,10,The City of Calgary,Calgary Parks,null,Weekly,null,Yes,null
+STOP,Transportation/Transit,official,0,24,0,104,The City of Calgary,Calgary Transit,Automated Passenger Counter (APC),None,20180507-20180625 and 20190506-20190623,Yes,null
+Street Centreline,Transportation/Transit,official,0,121,0,287,The City of Calgary,Corporate Analytics and Innovation,null,Quarterly,null,Yes,"['road', 'street', 'transportation', 'network', 'transnet', 'roadnet']"
+Street Centreline,null,official,0,1,0,103,null,null,null,null,null,null,null
+Street Names,Base Maps,official,0,618,0,2367,The City of Calgary,Corporate Analytics and Innovation,Digitized from plans,Weekly,null,Yes,['address']
+Streetlight Poles,Health and Safety,official,0,167,0,627,The City of Calgary,Roads,null,Monthly,null,Yes,"['streetlight', 'paint', 'color']"
+Student Enrolment Trends,null,official,0,6,0,149,null,null,null,null,null,null,null
+Subdivision and Development Appeal Board (SDAB) Decisions,Government,official,0,209,0,1550,The City of Calgary,City Clerk's Office,null,Weekly,2014-Present,Yes,"['sdab', 'hearing', 'appeals', 'board', 'rulings', 'decision', 'development', 'permit']"
+Tenancy Change Applications,null,official,0,603,0,1633,The City of Calgary,Planning and Development,null,Daily,2007-present,Yes,"['planning', 'business', 'permit', 'application']"
+Total daily production at City solar photovoltaic installations (kWh),Environment,official,0,8,0,200,null,null,null,null,null,null,null
+Total Number of Licensed Pets,Services and Amenities,official,0,5,0,261,The City of Calgary,Calgary Community Standards,null,Monthly,null,Yes,null
+Tracks - LRT,Transportation/Transit,official,0,422,0,1031,The City of Calgary,Calgary Transit,null,Monthly,null,Yes,"['tracks', 'lrt', 'transit']"
+Tracks - LRT Centre Line,Transportation/Transit,official,0,211,0,489,The City of Calgary,Calgary Transit,null,Monthly,null,Yes,null
+Tracks - Non- LRT,Transportation/Transit,official,0,13,0,7,The City of Calgary,Corporate Analytics and Innovation,null,Monthly,null,Yes,null
+Tracks - Non- LRT,Transportation/Transit,official,0,170,0,354,The City of Calgary,Corporate Analytics and Innovation,null,Monthly,null,Yes,"['railway', 'tracks', 'rail', 'train']"
+Tracks - Non- LRT Centre Line,Transportation/Transit,official,0,113,0,213,The City of Calgary,Corporate Analytics and Innovation,null,Monthly,null,Yes,"['railway', 'tracks', 'rail', 'train']"
+Tracks - Non- LRT Centre Line,Transportation/Transit,official,0,13,0,22,The City of Calgary,Corporate Analytics and Innovation,null,Monthly,null,Yes,null
+Traffic Camera Locations,Transportation/Transit,official,0,700,0,8017,The City of Calgary,Roads,null,null,null,Yes,"['traffic', 'camera', 'monitoring']"
+Traffic Camera Locations,Transportation/Transit,official,0,24,0,5888,The City of Calgary,Roads,null,Daily,null,Yes,null
+Traffic Cameras,Transportation/Transit,official,0,1042,0,36675,The City of Calgary,Roads,null,Daily,null,Yes,"['traffic', 'camera', 'monitoring']"
+Traffic Control Signals in Communities,Health and Safety,official,0,15,0,197,null,null,null,null,null,null,null
+Traffic Control Signals Installed Annually,Health and Safety,official,0,5,0,62,null,null,null,null,null,null,null
+Traffic Counts at Permanent stations,Transportation/Transit,official,0,30,0,281,The City of Calgary,Transportation Planning,null,Monthly,null,null,"['counts', 'volumes', 'traffic', 'car', 'vehicle']"
+Traffic Incidents,Transportation/Transit,official,0,3566,5,33183,The City of Calgary,Roads,Advanced Traveler Information System (ATIS),Continuous,December 2016-present,Yes,"['traffic', 'incident', 'road', 'safety']"
+Traffic Incidents Archive 2016,Transportation/Transit,official,0,1494,9,1544,The City of Calgary,Roads,Advanced Traveler Information System (ATIS),None,"Dec 6-Dec 20, 2016 only",Yes,"['traffic', 'incident', 'archive', 'log', '2016']"
+Traffic Incidents Archive 2016 Heat Map,Transportation/Transit,official,0,523,0,611,The City of Calgary,Roads,null,null,null,Yes,"['traffic', 'incident']"
+Traffic Incidents Archive 2017,Transportation/Transit,official,0,9735,0,1040,The City of Calgary,Roads,Advanced Traveler Information System (ATIS),None,"Jan 27, 2017-Jan 19, 2018",Yes,"['traffic', 'incident', 'archive', 'log', '2017']"
+Traffic Incidents Archive 2017 Heat Map,Transportation/Transit,official,0,1103,0,8532,The City of Calgary,Transportation Planning,null,null,null,Yes,"['traffic', 'incident', 'archive', 'log']"
+Traffic Incidents Archive 2017 Point Map,Transportation/Transit,official,0,544,0,599,The City of Calgary,Transportation Planning,null,null,null,Yes,"['traffic', 'incident', 'archive', 'log']"
+Traffic Incidents By Community,Transportation/Transit,official,0,16,0,121,The City of Calgary,Roads,Advanced Traveler Information System (ATIS),null,"Jan 27, 2017-Jan 19, 2018",Yes,null
+Traffic Signals,Health and Safety,official,0,377,0,2161,The City of Calgary,Roads,null,Daily,null,Yes,"['signals', 'traffic', 'traffic signals', 'transportation', 'safety']"
+Traffic Signs,Transportation/Transit,official,0,178,0,610,The City of Calgary,Roads,null,Daily,null,Yes,"['sign', 'road', 'yield', 'playground', 'stop', 'parking', 'handicap', 'residential']"
+Traffic Volumes for 2015,Transportation/Transit,official,0,214,0,1307,The City of Calgary,Transportation Planning,null,Annual,null,Yes,"['weekday', 'traffic', 'volume']"
+Traffic Volumes for 2015,Transportation/Transit,official,0,664,0,4,The City of Calgary,Transportation Planning,null,Annual,null,Yes,null
+Traffic Volumes for 2016,Transportation/Transit,official,0,722,0,10,The City of Calgary,Transportation Planning,null,None,null,Yes,"['weekday', 'traffic', 'volume', 'safety', 'pedhacks']"
+Traffic Volumes for 2016,Transportation/Transit,official,0,236,0,1788,The City of Calgary,Transportation Planning,null,None,null,Yes,"['traffic', 'flow', 'volume', '2016']"
+Traffic Volumes for 2017,Transportation/Transit,official,0,150,0,1103,The City of Calgary,Transportation Planning,null,None,null,Yes,['2017 traffic flow volume']
+Traffic Volumes for 2017,Transportation/Transit,official,0,60,0,31,The City of Calgary,Transportation Planning,null,None,null,Yes,"['traffic', 'flow', 'weekday', 'safety', 'pedhacks']"
+Traffic Volumes for 2018,Transportation/Transit,official,0,433,0,2102,The City of Calgary,Transportation Planning,null,None,null,Yes,"['traffic', 'volumes', 'segments', 'roads']"
+Traffic Volumes for 2019,Transportation/Transit,official,0,3,0,25,The City of Calgary,Transportation Planning,null,None,null,Yes,"['traffic', 'volumes', 'segments', 'roads']"
+Trails,Recreation and Culture,official,0,247,0,478,The City of Calgary,Calgary Parks,null,Weekly,null,Yes,['trails']
+Trails,Recreation and Culture,official,0,26,0,25,The City of Calgary,Calgary Parks,null,Weekly,null,Yes,null
+Transit- Call Source 2016 Donut,Government,official,0,424,0,214,The City of Calgary,Calgary Transit,null,null,null,null,['citizen-dashboard']
+Transit- Person Crime Rate column,Transportation/Transit,official,0,454,0,231,null,Transit,null,null,null,null,['citizen-dashboard']
+Transit- Person Crime Rate line,Transportation/Transit,official,0,470,0,387,null,Transit,null,null,null,null,['citizen-dashboard']
+Transit Bus Reliability,Government,official,0,135,0,429,The City of Calgary,Calgary Transit,null,None,null,null,['citizen-dashboard']
+Transit CTrain Reliability,Government,official,0,89,0,252,The City of Calgary,Calgary Transit,null,None,null,null,['citizen-dashboard']
+Transit Incident Log,Transportation/Transit,official,0,28,0,256,The City of Calgary,Calgary Transit,Computer Aided Dispatch Auomatic Vehicle Locator,None,20180507-20180625 and 20190506-20190623,Yes,null
+Transit LRT Stations,Transportation/Transit,official,0,455,0,1688,The City of Calgary,Corporate Analytics and Innovation,null,Monthly,null,Yes,"['station', 'lrt', 'c-train']"
+Transit LRT Stations Map,Transportation/Transit,official,0,40,0,331,null,null,null,null,null,null,null
+Transit LRT Stations map,Transportation/Transit,official,0,883,0,3708,,,,,,,null
+Transit Major CTrain Delays,Government,official,0,115,0,652,The City of Calgary,Calgary Transit,null,null,null,null,['citizen-dashboard']
+Transit Peace Officer Calls,Government,official,0,198,0,489,The City of Calgary,Calgary Transit,null,None,null,null,['citizen-dashboard']
+Transportation Utility Corridor,Services and Amenities,official,0,23,0,32,The City of Calgary,Calgary Growth Strategies,null,Monthly,null,Yes,null
+Transportation Utility Corridor,Services and Amenities,official,0,235,0,1053,The City of Calgary,Calgary Growth Strategies,null,Monthly,null,Yes,"['tuc', 'mdp']"
+Travel Times,Transportation/Transit,official,0,228,0,1158,The City of Calgary,Roads,INRIX Analytics,Continuous,null,No,"['travel time', 'road']"
+TRIP,Transportation/Transit,official,0,24,0,120,The City of Calgary,Calgary Transit,Automated Passenger Counter (APC),null,20180507-20180625 and 20190506-20190623,null,null
+Truck Routes - Hazardous Goods,Transportation/Transit,official,0,100,0,300,The City of Calgary,Transportation Planning,null,Irregular,null,Yes,"['access', 'truck', 'hazardous', 'restricted']"
+Truck Routes - Hazardous Goods,Transportation/Transit,official,0,7,0,1,The City of Calgary,Transportation Planning,null,Irregular,null,Yes,null
+Two-year ward population comparisons,Demographics,official,0,5,0,62,The City of Calgary,City Clerk's Office,null,Annually,1997-present,null,null
+Types of COVID-19 related requests,Services and Amenities,official,0,4,0,74,The City of Calgary,Customer Service and Communications,null,Daily,null,No,null
+Types of Traffic Control Signals,Health and Safety,official,0,8,0,249,null,null,null,null,null,null,null
+Unemployment rates,Business and Economic Activity,official,0,2,0,406,null,null,null,null,null,null,null
+Unemployment Statistics,null,official,0,3,0,147,null,null,null,null,null,null,null
+Urban Forest - Public Tree Locations,Environment,official,0,20,0,896,null,null,null,null,null,null,null
+User Guide - Main page,Help and Information,official,0,8,0,11909,The City of Calgary,Corporate Analytics and Innovation,null,null,null,No,"['help', 'how to', 'guide', 'tutorial', 'tutorials', 'video', 'videos']"
+Vehicle Position Log,Transportation/Transit,official,0,32,0,324,The City of Calgary,Calgary Transit,Computer Aided Dispatch Auomatic Vehicle Locator (CADAVL),None,20180507-20180527 and 20190506-20190520,Yes,null
+"Voting Stations (Effective October 16,  2017)",Government,official,0,159,0,2998,The City of Calgary,City Clerk's Office,null,Irregular,"from October 16, 2017",Yes,"['election', 'voting station', 'voting']"
+"Voting Stations (Effective October 16,  2017) Map",Government,official,0,19,0,1289,null,null,null,null,null,null,null
+Voting Subdivisions - 2018 Vote of the Electors,Government,official,0,116,0,98,The City of Calgary,City Clerk's Office,null,None,null,Yes,"['vote', 'plebiscite', 'voting']"
+Voting Subdivisions - 2018 Vote of the Electors,Government,official,0,16,0,43,The City of Calgary,City Clerk's Office,null,null,null,Yes,null
+"Voting Subdivisions (effective October 16, 2017)",Government,official,0,76,0,355,The City of Calgary,City Clerk's Office,null,Irregular,null,Yes,"['voting', 'election']"
+Voting Subdivisions,Government,official,0,183,0,3014,The City of Calgary,City Clerk's Office,null,Irregular,null,Yes,"['election', 'voting']"
+Ward Boundaries,Government,official,0,1187,0,2333,The City of Calgary,City Clerk's Office,manual,Irregular,October 16 2017- October 2021,Yes,"['ward', 'election']"
+Ward Boundaries,Government,official,0,86,0,11,The City of Calgary,City Clerk's Office,manual,Irregular,October 16 2017- October 2021,Yes,null
+Ward Boundaries 2013-2017,Government,official,0,79,0,160,The City of Calgary,City Clerk's Office,null,None,"October 21 2013-October 16, 2017",Yes,['ward']
+Ward Boundaries 2013-2017,Government,official,0,19,0,1,The City of Calgary,City Clerk's Office,null,None,"October 21 2013-October 16, 2017",Yes,null
+Ward Boundaries for 2021 October 18 General Election,Government,official,0,47,0,207,The City of Calgary,City Clerk's Office,null,Irregular,null,Yes,null
+Ward Map of Calgary Business Licences,Business and Economic Activity,official,0,4,0,343,The City of Calgary,Calgary Community Standards,null,Monthly,null,Yes,null
+Wards and Communities Data Lens,Base Maps,official,0,21,0,1830,null,null,null,null,null,null,null
+Waste and Recycling Collection Schedule,Services and Amenities,official,0,380,0,47910,The City of Calgary,Waste and Recycling Services,null,Daily,null,Yes,"['green', 'blue', 'black', 'carts', 'garbage', 'recycling', 'composting', 'schedule', 'collection', 'summer', 'winter']"
+Waste Composition 2019 - Garbage,Help and Information,official,0,55,0,718,The City of Calgary,Waste and Recycling Services,null,None,2019,No,"['waste', 'garbage', 'waste composition', 'black cart']"
+Waste per Capita,Government,official,0,203,0,1788,The City of Calgary,Waste and Recycling Services,null,Annual,null,null,['citizen-dashboard']
+Waste Per Capita Bar,Government,official,0,453,0,485,null,null,null,Annual ,null,null,['citizen-dashboard']
+Water- River Withdrawals line,Government,official,0,471,0,354,null,Water Resources and Water Services,null,Annual ,null,null,['citizen-dashboard']
+Water- Toilet rebates by type stacked,Government,official,0,460,0,212,null,null,null,Annual,null,null,['citizen-dashboard']
+Water Annual River Withdrawals,Government,official,0,190,0,261,The City of Calgary,Water Resources and Water Services,null,Annual,null,null,['citizen-dashboard']
+Water Hydrants,null,official,0,133,0,295,The City of Calgary,Water Resources and Water Services,null,Weekly,null,Yes,"['fire hydrant', 'hydrant', 'water']"
+Water Main Breaks,Environment,official,0,226,0,912,The City of Calgary,Water Resources and Water Services,null,Weekly,null,Yes,"['water', 'main break', 'corrosion', 'active', 'retired']"
+Water Main Breaks Map,Environment,official,0,18,0,314,The City of Calgary,Water Resources and Water Services,null,Weekly - Monday,null,Yes,null
+Water Main Breaks Trends,Environment,official,0,8,0,173,The City of Calgary,Water Resources and Water Services,null,Weekly - Monday,null,Yes,null
+Water Single Family Consumption,Government,official,0,146,0,486,The City of Calgary,Water Resources and Water Services,null,Monthly,null,null,['citizen-dashboard']
+Year To Date Economic Indicators,Business and Economic Activity,official,0,95,0,252,The City of Calgary,Finance,null,Monthly,null,No,"['unemployment', 'wage', 'building permits', 'housing starts', 'retail sales', 'inflation']"
+Year to Date Fire Emergency Timeline,Government,official,0,484,0,116,City of Calgary,Calgary Fire Department,null,Daily,null,null,['citizen-dashboard']
+Yearly Ridership (current year is year-to-date),Transportation/Transit,official,0,5,0,196,null,null,null,null,null,null,null

@@ -33,8 +33,8 @@ def JSONextract():
 
         writer = csv.writer(file)
 
-
-        writer.writerow(["Name", "Category", "Provenance", "Average_rating", "Download_count", "Number_of_comments", "View_count", "Update Frequency", "Time Period Covered", "Map Type", "Point Aggregation", "Tags"])
+        #update this to reflect the new categories !!!
+        writer.writerow(["Name", "Category", "Provenance", "Average_rating", "Download_count", "Number_of_comments", "View_count", "Organization", "Business_unit", "How_data_collected", "Update_frequency","Time_period_Covered", "dataset_contains_geospatial", "Tags"])
 
 
     #walk through the directory where the files are stored
@@ -125,11 +125,6 @@ def JSONextract():
 
                             try:
                                 metadata.append(str(data["metadata"]["custom_fields"]["Geospatial Information"]["Dataset contains geospatial information"]))
-                            except:
-                                metadata.append("null")
-
-                            try:
-                                metadata.append(str(data["cachedContents"]["computationStrategy"]["type"]))
                             except:
                                 metadata.append("null")
 
