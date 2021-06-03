@@ -8,7 +8,7 @@
 
 # Data Extraction
 
-Data was extracted from the Open Calgary API using the Datadownloader.py code written by R. Burns and modified with RegEx to remove characters problematic for filenames nad shapefiles.  The data was saved into a unique folder per dataset.
+Data was extracted from the Open Calgary API using the Datadownloader.py code written by R. Burns and modified with RegEx to remove characters problematic for filenames and shapefiles.  The data was saved into a unique folder per dataset.
 
 The data was extracted over a 48 hour period between November 21st and November 22nd 2020.  
 Downloading had to be completed in multiple runs due to issues with the connection timing out, the initial request not identifying all data available, and errors associated with a particular data request (2016 Census of Canada - Top 5 Languages Spoken Most Often at Home by Ward).  After 48 hours the list of downloaded data was manually inspected and compared to the website.  Shapefiles that were absent were manually downloaded and added to the set.
