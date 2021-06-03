@@ -21,7 +21,7 @@ In total 759 datasets were downloaded.
 
 # File Management
 
-To make spatial data mangement easier, the shapefiles were extracted from the individual dataset folders into a common folder.  The filenames assigned by the city to the shapefiles are not in a useful format, so they needed to be renamed with the parent folder name.  After renaming and moving to a common folder, the shapefiles were then projected into the Alberta 3TM coordinate system.  To facilitate geometry dependent analysis and review, the shapefiles were saved to new folders based on whether they were points, multipoints, polylines or polygons.
+To make spatial data management easier, the shapefiles were extracted from the individual dataset folders into a common folder.  The filenames assigned by the city to the shapefiles are not in a useful format, so they needed to be renamed with the parent folder name.  After renaming and moving to a common folder, the shapefiles were then projected into the Alberta 3TM coordinate system.  To facilitate geometry dependent analysis and review, the shapefiles were saved to new folders based on whether they were points, multipoints, polylines or polygons.
 
 # Tessellation 
 
@@ -57,7 +57,7 @@ The first image shows the total count distribution of data, with no normalizatio
 
 <img width="584" alt="All Data Count" src="https://user-images.githubusercontent.com/59377701/120252671-6d298600-c242-11eb-9c97-47060435fcad.png">
 
-The following image also shows all of the data, normalised to stop large datasets from consuming the analysis.
+The following image also shows all the data, normalised to stop large datasets from consuming the analysis.
 
 <img width="595" alt="All Data Normalized Sum" src="https://user-images.githubusercontent.com/59377701/120252766-ae219a80-c242-11eb-9d0d-5bb9c5ea73e5.png">
 
@@ -143,10 +143,10 @@ Null Category
 ### Duplication
 
 * Some data appears to be exact duplicates (ex. Community Sectors and Community Sectors Map both contain similar looking shapefiles). This is inconsistently done.  Should these both be included?
-* Data records appear to have inconsistent treatment with regards to writing a new record versus replacing an original (example - sports surfaces - a single ball diamond has 200+ records associated with the space and surface of the shapefile, all geographically identical).  Should this be considered a single record, or multiple records?  Most datasets do not do this, but editing these records is interferring within a dataset and is untenable at scale.
+* Data records appear to have inconsistent treatment with regards to writing a new record versus replacing an original (example - sports surfaces - a single ball diamond has 200+ records associated with the space and surface of the shapefile, all geographically identical).  Should this be considered a single record, or multiple records?  Most datasets do not do this, but editing these records is interfering within a dataset and is untenable at scale.
 
 ### Data location shifting for privacy
-* Several point geometry data layers have been shifted to a single location at the center of each community, most likely due to privacy considerations. Examples include Licensed Pets and 311 Service Requests.  This means that each pet licensed in a neighbourhood gets a unique record in the dataset, and a unique count in the tessellation at excactly the community centroid location.  This results in neighbourhood brightspots that do not correspond to the actual location of those feautures and do not represent a real distribution.  Should these datasets be included since this is how the city is choosing to represent this data?  Or should these layers be discarded?
+* Several point geometry data layers have been shifted to a single location at the center of each community, most likely due to privacy considerations. Examples include Licensed Pets and 311 Service Requests.  This means that each pet licensed in a neighbourhood gets a unique record in the dataset, and a unique count in the tessellation at exactly the community centroid location.  This results in neighbourhood brightspots that do not correspond to the actual location of those features and do not represent a real distribution.  Should these datasets be included since this is how the city is choosing to represent this data?  Or should these layers be discarded?
 
 ### Repetition of polgyons
 
@@ -161,7 +161,7 @@ Null Category
 
 # Work In Progress/Next Steps
 
-* Review JSON code for opportunties - datasets are inconsistent in content and completion
+* Review JSON code for opportunities - datasets are inconsistent in content and completion
 * Develop code that indicates binary presence or absence of data
 * Decide what to do with dataset tags
 
