@@ -51,7 +51,7 @@ The points, multipoints, polylines and polygon tessellated shapefiles were first
 
 --------------------------------------------------
 
-#Total Dataset Results
+# Total Dataset Results
 
 The first image shows the total count distribution of data, with no normalization, and no data removed.  The impacts of large datasets with anonymized data assigned to community centerpoints is obvious as indicated by isolated bright islands of colour.
 
