@@ -81,6 +81,7 @@ Business and Economic Activity
 Demographics
 
 <img width="356" alt="Demographics" src="https://user-images.githubusercontent.com/59377701/119430656-6775f280-bcce-11eb-9473-637a3342963d.png">
+
 --------------------------------------------------
 
 Environment
