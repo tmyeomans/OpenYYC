@@ -40,18 +40,41 @@ Median values cannot be used since many of the datasets have a majority of the c
 
 As a result, the mean was used to normalize the data.  The mean tessell value was calculated for each tesselated layer.
 
-Next each tessellated cell was divided by the mean tessell value for that data layer, providing a normalized value.
+Next each tessellated cell value was divided by the mean tessell value for that data layer, providing a normalized value.
+
+Each tessellated cell was also divided by the total count number and multiplied by 100, providing the percentage of the dataset that the specific tessell holds.
+
 
 # Aggregation
 
-The points, multipoints, polylines and polygon tessellated shapefiles were first aggregated by the original geometry, then combined.  This results in a final tessellated shapefile with a total sum and normalized sum (REVISIT PER_SUM - FIX or REMOVE).
+The points, multipoints, polylines and polygon tessellated shapefiles were first aggregated by the original geometry, then combined.  This results in a final tessellated shapefile with a total sum and normalized sum.
 
+--------------------------------------------------
+
+#Total Dataset Results
+
+The first image shows the total count distribution of data, with no normalization, and no data removed.  The impacts of large datasets with anonymized data assigned to community centerpoints is obvious as indicated by isolated bright islands of colour.
+
+<img width="584" alt="All Data Count" src="https://user-images.githubusercontent.com/59377701/120252671-6d298600-c242-11eb-9c97-47060435fcad.png">
+
+The following image also shows all of the data, normalised to stop large datasets from consuming the analysis.
+
+<img width="595" alt="All Data Normalized Sum" src="https://user-images.githubusercontent.com/59377701/120252766-ae219a80-c242-11eb-9d0d-5bb9c5ea73e5.png">
+
+--------------------------------------------------
 
 # Aggregated City-Assigned Categories, Suspected Duplicates Removed
 
-Transportation
+Basemaps
 
-<img width="405" alt="Transportation" src="https://user-images.githubusercontent.com/59377701/119430653-66dd5c00-bcce-11eb-8927-d7b9260bba62.png">
+![Basemaps](https://user-images.githubusercontent.com/59377701/120404881-8dba1480-c304-11eb-91f8-a64632365786.png)
+
+--------------------------------------------------
+
+Business and Economic Activity
+
+![Business and Economic Activity](https://user-images.githubusercontent.com/59377701/120404903-9dd1f400-c304-11eb-967e-39045b05a3bb.png)
+
 
 --------------------------------------------------
 
@@ -65,6 +88,14 @@ Environment
 <img width="341" alt="Environment" src="https://user-images.githubusercontent.com/59377701/119430659-680e8900-bcce-11eb-8561-8730df6db3a2.png">
 
 --------------------------------------------------
+
+Government
+
+![Government](https://user-images.githubusercontent.com/59377701/120404913-a5919880-c304-11eb-8ef0-8a027ac5647e.png)
+
+
+--------------------------------------------------
+
 
 Health and Safety
 
@@ -80,7 +111,8 @@ Help and Information
 
 Recreation and Culture
 
-<img width="380" alt="Recreation and Culture" src="https://user-images.githubusercontent.com/59377701/119430664-693fb600-bcce-11eb-81dc-c0edcc670b15.png">
+![Recreation and Culture](https://user-images.githubusercontent.com/59377701/120404526-cd343100-c303-11eb-8a9e-4a2ce1a74340.png)
+
 
 --------------------------------------------------
 
@@ -90,14 +122,17 @@ Services and Amenities
 
 --------------------------------------------------
 
+Transportation
+
+<img width="405" alt="Transportation" src="https://user-images.githubusercontent.com/59377701/119430653-66dd5c00-bcce-11eb-8927-d7b9260bba62.png">
+
+--------------------------------------------------
+
 Null Category
 
 <img width="400" alt="Null Category" src="https://user-images.githubusercontent.com/59377701/119430663-693fb600-bcce-11eb-8a14-45264cf492db.png">
 
 --------------------------------------------------
-
-Missing - Total aggregate - Needs to be redone to include 311 Service Request Data
-
 
 
 
@@ -157,6 +192,6 @@ OpenYYC_Script_tesslation_calculations - Code to count the number of data points
 
 Old - Previous code snippits to be removed at a later date
 
-Data - Contains the individual tesellated shapefiles and aggregated category tessells.  (note - need to re-run the full aggregate with 311 data included)
+Data - Contains the individual tesellated shapefiles, the total data aggregate tessell, and the aggregated category tessells. 
 
 
