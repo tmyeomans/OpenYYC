@@ -138,15 +138,15 @@ Null Category
 
 # Important Notes and Decisions to be Made
 
-## Are we representing the data as it exists in the database, or are we trying to represent concrete things?
+## Are we representing the data as it exists in the database, or are we trying to represent intention?
 
 ### Duplication
 
 * Some data appears to be exact duplicates (ex. Community Sectors and Community Sectors Map both contain similar looking shapefiles). This is inconsistently done.  Should these both be included?
-* Data records appear to have inconsistent treatment with regards to writing a new record versus replacing an original (example - sports surfaces - a single ball diamond has 200+ records associated with the space and surface of the shapefile, all geographically identical).  Should this be considered a single record, or multiple records?
+* Data records appear to have inconsistent treatment with regards to writing a new record versus replacing an original (example - sports surfaces - a single ball diamond has 200+ records associated with the space and surface of the shapefile, all geographically identical).  Should this be considered a single record, or multiple records?  Most datasets do not do this, but editing these records is interferring within a dataset and is untenable at scale.
 
 ### Data location shifting for privacy
-* Several point geometry data layers have been shifted to a single location at the center of each community, likely due to privacy considerations. Examples include Licensed Pets and 311 Service Requests.  This means that each pet licensed in a neighbourhood gets a unique record in the dataset, and a unique count in the tessellation.  This results in neighbourhood brightspots that do not correspond to the actual location of those feautures and do not represent a real distribution.  Should these datasets be included since this is how the city is choosing to represent this data?  Or should these layers be discarded?
+* Several point geometry data layers have been shifted to a single location at the center of each community, most likely due to privacy considerations. Examples include Licensed Pets and 311 Service Requests.  This means that each pet licensed in a neighbourhood gets a unique record in the dataset, and a unique count in the tessellation at excactly the community centroid location.  This results in neighbourhood brightspots that do not correspond to the actual location of those feautures and do not represent a real distribution.  Should these datasets be included since this is how the city is choosing to represent this data?  Or should these layers be discarded?
 
 ### Repetition of polgyons
 
@@ -154,16 +154,16 @@ Null Category
 
 
 ## Statistics Canada data
-* There are several Statistics Canada layers in the datasets.  Should these be considered part of Calgary's data since they are on the Open Portal or should this be treated separately?
+* There are several Statistics Canada layers in the datasets.  Should these be considered part of Calgary's data since they are on the Open Portal and the city has decided to include them or should this be treated separately?
 
 
 ------------------------------------------
 
 # Work In Progress/Next Steps
 
-* Clean up json code to extract all desired categories (jsons are not consistent)
-* Clean previously written code
-* Develop a code that indicates presence or absence of data, not the counts
+* Review JSON code for opportunties - datasets are inconsistent in content and completion
+* Develop code that indicates binary presence or absence of data
+* Decide what to do with dataset tags
 
 -------------------------------------------
 
@@ -187,6 +187,9 @@ OpenYYC_script_shapefile_extraction.py - Code to extract all of the shapefile da
 OpenYYC_script_projection_foldercreation - Code to separate shapefiles into new folders based on geometry and project into the desired coordinate system
 
 OpenYYC_Script_tesslation_calculations - Code to count the number of data points within a tesselated area, normalize with respect to the total for that specific dataset and then combine with all the other tesselated files to build an aggregate layer.
+
+OpenYYC_JSON_Reader - Code to extract metadata from each dataset
+
 
 # Folders:
 
