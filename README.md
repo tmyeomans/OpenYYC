@@ -162,6 +162,7 @@ Null Category
 
 # Work In Progress/Next Steps
 
+* City of Calgary has been contacted regarding which ward boundaries to use for 2016 Statscan data.  There was a major redrawing of ward boundaries in 2017, and there are inconsitencies between the graphics and written description on the Ward profiles on the city website 
 * Review JSON code for opportunities - datasets are inconsistent in content and completion
 * Develop code that indicates binary presence or absence of data
 * Decide what to do with dataset tags
