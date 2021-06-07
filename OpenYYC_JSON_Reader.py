@@ -1,39 +1,30 @@
 #-------------------------------------------------------------------------------
 # Name:        OPENYYC_JSON_READER
-# Purpose:     To identify JSON files with pertinent information
+# Purpose:     To extract meaningful metadata from json files
 #
 # Author:      T. Yeomans
 #
 # Created:     20-02-2021
-
 #-------------------------------------------------------------------------------
-
+#import needed libraries
 import os
-import re
 import shutil
 import json
 import csv
-import pandas as pd
 
 
-
-### "name" "averageRating" "category" "downloadCount" "numberOfComments" "provenance" numberOfComments "viewCount"
-### "Update Frequency" "Time Period Covered" "mapType" "pointAggregation"
-
-##def renameMetafiles():
+#Build an empty list for the metadata information
 metadata = []
-##
 
-#create a method to rename the files to acceptable shapefile names
+
+#Create a method to rename the files to acceptable shapefile names
 def JSONextract():
 
-
-
+    #Create a new csv to host the metadata summaries
     with open(r"C:\OpenCalgary_project\meta_list.csv", "w", newline = "") as file:
-
         writer = csv.writer(file)
 
-        #update this to reflect the new categories !!!
+        #Write the first row with the desired column headings
         writer.writerow(["Name", "Category", "Provenance", "Average_rating", "Download_count", "Number_of_comments", "View_count", "Organization", "Business_unit", "How_data_collected", "Update_frequency","Time_period_Covered", "dataset_contains_geospatial", "Tags"])
 
 
@@ -42,25 +33,13 @@ def JSONextract():
 
         #iterate over each item in all of the files
             for name in files:
-    ##            print(name)
-    ##            if  name.endswith(".json"):
-    ##                print (name)
-    ##            else:
-    ##                pass
-    ##            print (root)
-
-    ##            with open (r"C:\OpenCalgary_project\Test_set_JSON" + "\\" + name) as json_file:
                 if name == "metadata.json":
 
-                    print(name)
-    ##                with open(name) as json_file:
-    ##                    data = json.loads(json_file.read())
-
+                    #Open and read each json file
                     with open (root + "\\" + name) as json_file:
                         data = json.loads(json_file.read())
-                        print (data["name"])
 
-
+                        #Try to look for specific fields in the json file. If they exist, append them to the list, if not, append null
                         with open (r"C:\OpenCalgary_project\meta_list_new.txt", "w", newline = "") as f:
                             metadata = []
 
@@ -137,11 +116,8 @@ def JSONextract():
 
                             writer.writerow(metadata)
 
-
                 else:
                     pass
 
-
-#print (metadata)
 
 JSONextract()
