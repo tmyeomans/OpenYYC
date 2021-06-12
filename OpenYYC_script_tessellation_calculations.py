@@ -423,6 +423,142 @@ def tessellateGeneric():
             del UC
 
 
+#The next series of functions adds a binary count in each tessell if data is present [1] or not [0]
+#If you have done any tessellations using other methods, such as for large datasets, and not included counts those tessellated results should be added to the folders containing the Python constructed ones before moving to the next step.
+
+def binaryTessellationPoint():
+
+    #Define the workspace where the shapefiles are located
+    arcpy.env.workspace = (r"C:\OpenCalgary_project\Tessellation_points")
+    fcs = arcpy.ListFeatureClasses()
+
+    #Iterate over all of the feature classes in the workspace
+    for fc in fcs:
+        #add a field for the binary count data
+        arcpy.AddField_management(fc, "Cont_data", "Short")
+        in_table = fc
+
+        with arcpy.da.UpdateCursor (in_table, ["Join_Count","Cont_data"]) as UC:
+
+            #for each tessell, look at the join count field.  If it is greater than zero, add a binary value of 1
+             #all other cases should already have a value of zero and can be passed
+            for row in UC:
+                if row[0] > 0:
+                    row[1] = 1
+                    UC.updateRow(row)
+
+            else:
+                pass
+            del UC
+
+
+def binaryTessellationMultipoint():
+
+    #Define the workspace where the shapefiles are located
+    arcpy.env.workspace = (r"C:\OpenCalgary_project\Tessellation_multipoint")
+    fcs = arcpy.ListFeatureClasses()
+
+    #Iterate over all of the feature classes in the workspace
+    for fc in fcs:
+        #add a field for the binary count data
+        arcpy.AddField_management(fc, "Cont_data", "Short")
+        in_table = fc
+
+        with arcpy.da.UpdateCursor (in_table, ["Join_Count","Cont_data"]) as UC:
+
+            #for each tessell, look at the join count field.  If it is greater than zero, add a binary value of 1
+            #all other cases should already have a value of zero and can be passed
+            for row in UC:
+                if row[0] > 0:
+                    row[1] = 1
+                    UC.updateRow(row)
+
+            else:
+                pass
+            del UC
+
+
+
+def binaryTessellationPolyline():
+
+    #Define the workspace where the shapefiles are located
+    arcpy.env.workspace = (r"C:\OpenCalgary_project\Tessellation_polylines")
+    fcs = arcpy.ListFeatureClasses()
+
+    #Iterate over all of the feature classes in the workspace
+    for fc in fcs:
+        #add a field for the binary count data
+        arcpy.AddField_management(fc, "Cont_data", "Short")
+        in_table = fc
+
+        with arcpy.da.UpdateCursor (in_table, ["Join_Count","Cont_data"]) as UC:
+
+            #for each tessell, look at the join count field.  If it is greater than zero, add a binary value of 1
+            #all other cases should already have a value of zero and can be passed
+            for row in UC:
+                if row[0] > 0:
+                    row[1] = 1
+                    UC.updateRow(row)
+
+            else:
+                pass
+            del UC
+
+
+def binaryTessellationPolyon():
+
+    #Define the workspace where the shapefiles are located
+    arcpy.env.workspace = (r"C:\OpenCalgary_project\Tessellation_polygons")
+    fcs = arcpy.ListFeatureClasses()
+
+    #Iterate over all of the feature classes in the workspace
+    for fc in fcs:
+        #add a field for the binary count data
+        arcpy.AddField_management(fc, "Cont_data", "Short")
+        in_table = fc
+
+        with arcpy.da.UpdateCursor (in_table, ["Join_Count","Cont_data"]) as UC:
+
+            #for each tessell, look at the join count field.  If it is greater than zero, add a binary value of 1
+            #all other cases should already have a value of zero and can be passed
+            for row in UC:
+                if row[0] > 0:
+                    row[1] = 1
+                    UC.updateRow(row)
+
+            else:
+                pass
+            del UC
+
+
+def binaryTessellationGeneric():
+
+    #Define the workspace where the shapefiles are located
+    arcpy.env.workspace = (r"C:\OpenCalgary_project\Test_binary\Test_tessells")
+    fcs = arcpy.ListFeatureClasses()
+
+    #Iterate over all of the feature classes in the workspace
+    for fc in fcs:
+        #add a field for the binary count data
+        arcpy.AddField_management(fc, "Cont_data", "Short")
+        in_table = fc
+
+        with arcpy.da.UpdateCursor (in_table, ["Join_Count","Cont_data"]) as UC:
+
+            #for each tessell, look at the join count field.  If it is greater than zero, add a binary value of 1
+            #all other cases should already have a value of zero and can be passed
+            for row in UC:
+                if row[0] > 0:
+                    row[1] = 1
+                    UC.updateRow(row)
+
+            else:
+                pass
+            del UC
+
+
+
+
 #If you have done any tessellations using other methods, such as for large datasets, those tessellated results should be added to the folders containing the Python constructed ones before moving to the next step.
 
 
@@ -441,7 +577,7 @@ def joinFieldPoints():
         inJoinField = "GRID_ID"
         joinFC = fc
         joinFCField = "GRID_ID"
-        fieldList = ["Join_Count","norm_ct"]
+        fieldList = ["Join_Count","norm_ct","Cont_Data"]
 
         #Add the count data to the main feature class
         arcpy.JoinField_management(inTessell, inJoinField, joinFC, joinFCField, fieldList)
@@ -452,12 +588,18 @@ def joinFieldPoints():
         arcpy.CalculateField_management(inTessell, field, expression, "", "", "FLOAT")
         arcpy.management.DeleteField(inTessell, "Join_Count")
 
-
+        #Sum the normalized count into the main feature class then delete the joined column
         field = "Pt_nrm_sum"
         expression = "!Pt_nrm_sum! + !norm_ct!"
-
         arcpy.CalculateField_management(inTessell, field, expression, "", "", "FLOAT")
         arcpy.management.DeleteField(inTessell, "norm_ct")
+
+        #sum the binary count into the main feature class then delete the joined column
+        field = "Ptbin_sum"
+        expression ="!Ptbin_sum! + !Cont_Data!"
+        arcpy.CalculateField_management(inTessell, field, expression, "", "", "SHORT")
+        arcpy.management.DeleteField(inTessell, "Cont_Data")
+
 
 
 def joinFieldMultipoints():
@@ -474,7 +616,7 @@ def joinFieldMultipoints():
         inJoinField = "GRID_ID"
         joinFC = fc
         joinFCField = "GRID_ID"
-        fieldList = ["Join_Count","norm_ct"]
+        fieldList = ["Join_Count","norm_ct","Cont_data"]
 
         #Add the count data to the main feature class
         arcpy.JoinField_management(inTessell, inJoinField, joinFC, joinFCField, fieldList)
@@ -485,11 +627,17 @@ def joinFieldMultipoints():
         arcpy.CalculateField_management(inTessell, field, expression, "", "", "FLOAT")
         arcpy.management.DeleteField(inTessell, "Join_Count")
 
+        #Sum the normalized count into the main feature class then delete the joined column
         field = "MPtnrm_sum"
         expression = "!MPtnrm_sum! + !norm_ct!"
         arcpy.CalculateField_management(inTessell, field, expression, "", "", "FLOAT")
         arcpy.management.DeleteField(inTessell, "norm_ct")
 
+        #sum the binary count into the main feature class then delete the joined column
+        field = "MPtbin_sum"
+        expression ="!MPtbin_sum! + !Cont_data!"
+        arcpy.CalculateField_management(inTessell, field, expression, "", "", "SHORT")
+        arcpy.management.DeleteField(inTessell, "Cont_data")
 
 def joinFieldPolylines():
 
@@ -505,7 +653,7 @@ def joinFieldPolylines():
         inJoinField = "GRID_ID"
         joinFC = fc
         joinFCField = "GRID_ID"
-        fieldList = ["Join_Count","norm_ct"]
+        fieldList = ["Join_Count","norm_ct","Cont_data"]
 
         #Add the count data to the main feature class
         arcpy.JoinField_management(inTessell, inJoinField, joinFC, joinFCField, fieldList)
@@ -516,11 +664,17 @@ def joinFieldPolylines():
         arcpy.CalculateField_management(inTessell, field, expression, "", "", "FLOAT")
         arcpy.management.DeleteField(inTessell, "Join_Count")
 
-
+        #Sum the normalized count into the main feature class then delete the joined column
         field = "Linnrm_sum"
         expression = "!Linnrm_sum! + !norm_ct!"
         arcpy.CalculateField_management(inTessell, field, expression, "", "", "FLOAT")
         arcpy.management.DeleteField(inTessell, "norm_ct")
+
+        #sum the binary count into the main feature class then delete the joined column
+        field = "Linbin_sum"
+        expression ="!Linbin_sum! + !Cont_data!"
+        arcpy.CalculateField_management(inTessell, field, expression, "", "", "SHORT")
+        arcpy.management.DeleteField(inTessell, "Cont_data")
 
 
 
@@ -538,7 +692,7 @@ def joinFieldPolygons():
         inJoinField = "GRID_ID"
         joinFC = fc
         joinFCField = "GRID_ID"
-        fieldList = ["Join_Count","norm_ct"]
+        fieldList = ["Join_Count","norm_ct","Cont_data"]
 
         #Add the count data to the main feature class
         arcpy.JoinField_management(inTessell, inJoinField, joinFC, joinFCField, fieldList)
@@ -549,17 +703,23 @@ def joinFieldPolygons():
         arcpy.CalculateField_management(inTessell, field, expression, "", "", "FLOAT")
         arcpy.management.DeleteField(inTessell, "Join_Count")
 
-
+        #Sum the normalized count into the main feature class then delete the joined column
         field = "Polnrm_sum"
         expression = "!Polnrm_sum! + !norm_ct!"
         arcpy.CalculateField_management(inTessell, field, expression, "", "", "FLOAT")
         arcpy.management.DeleteField(inTessell, "norm_ct")
 
+        #sum the binary count into the main feature class then delete the joined column
+        field = "Polbin_sum"
+        expression ="!Polbin_sum! + !Cont_data!"
+        arcpy.CalculateField_management(inTessell, field, expression, "", "", "SHORT")
+        arcpy.management.DeleteField(inTessell, "Cont_data")
+
 
 def joinFieldGeneric():
 
     #Add the workspace where your tessellated shapefiles containing data resides
-    arcpy.env.workspace = (r"C:\OpenCalgary_project\Category\Government\outFC")
+    arcpy.env.workspace = (r"C:\OpenCalgary_project\Test_binary\Test_tessells")
     fcs = arcpy.ListFeatureClasses()
 
     #Join the main tessellation to the feature classes with counts of data
@@ -570,7 +730,7 @@ def joinFieldGeneric():
         inJoinField = "GRID_ID"
         joinFC = fc
         joinFCField = "GRID_ID"
-        fieldList = ["Join_Count","norm_ct"]
+        fieldList = ["Join_Count","norm_ct", "Cont_data"]
 
         #Add the count data to the main feature class
         arcpy.JoinField_management(inTessell, inJoinField, joinFC, joinFCField, fieldList)
@@ -581,11 +741,18 @@ def joinFieldGeneric():
         arcpy.CalculateField_management(inTessell, field, expression, "", "", "FLOAT")
         arcpy.management.DeleteField(inTessell, "Join_Count")
 
-
+        #Sum the normalized count into the main feature class then delete the joined column
         field = "Shpnrm_sum"
         expression = "!Shpnrm_sum! + !norm_ct!"
         arcpy.CalculateField_management(inTessell, field, expression, "", "", "FLOAT")
         arcpy.management.DeleteField(inTessell, "norm_ct")
+
+        #sum the binary count into the main feature class then delete the joined column
+        field = "Shpbin_sum"
+        expression ="!Shpbin_sum! + !Cont_data!"
+        arcpy.CalculateField_management(inTessell, field, expression, "", "", "SHORT")
+        arcpy.management.DeleteField(inTessell, "Cont_data")
+
 
 
 
@@ -623,7 +790,7 @@ def combineShapes():
         arcpy.management.AddFields(inTessell, [["Poly_sum", "FLOAT"], ["Polnrm_sum", 'FLOAT'] ])
 
 
-
+#Sum all of the geometry sums into a single value
     field = "Count"
     expression = "!Points_sum! + !Mpoint_sum! + !Line_sum! + !Poly_sum!"
     arcpy.CalculateField_management(inTessell, field, expression, "", "", "FLOAT")
@@ -634,7 +801,9 @@ def combineShapes():
     arcpy.CalculateField_management(inTessell, field, expression, "", "", "FLOAT")
 
 
-
+    field = "Bin_sum"
+    expression = "!Ptbin_sum! + !MPtbin_sum! + !Linbin_sum! + !Polbin_sum!"
+    arcpy.CalculateField_management(inTessell, field, expression, "", "", "FLOAT")
 
 
 
@@ -643,16 +812,20 @@ tessellateMultipoint()
 tessellatePolylines()
 tessellatePolygons()
 
-
 #Shortened code for a single folder
 ##tessellateGeneric()
+##binaryTessellationGeneric()
 ##joinFieldGeneric()
 
+
+binaryTessellationPoint()
+binaryTessellationMultipoint()
+binaryTessellationPolyline()
+binaryTessellationPolyon()
 
 joinFieldPoints()
 joinFieldMultipoints()
 joinFieldPolylines()
 joinFieldPolygons()
-
 
 combineShapes()
