@@ -44,10 +44,12 @@ Next each tessellated cell value was divided by the mean tessell value for that 
 
 Each tessellated cell was also divided by the total count number and multiplied by 100, providing the percentage of the dataset that the specific tessell holds.
 
+In addition to looking at the total data per tessellated cell, a binary value was extracted, showing each tessellated cell as having at least one data item (coded 1) or no data present (coded 0).
+
 
 # Aggregation
 
-The points, multipoints, polylines and polygon tessellated shapefiles were first aggregated by the original geometry, then combined.  This results in a final tessellated shapefile with a total sum and normalized sum.
+The points, multipoints, polylines and polygon tessellated shapefiles were first aggregated by the original geometry, then combined.  This results in a final tessellated shapefile with a total sum, normalized sum and a binary sum.
 
 --------------------------------------------------
 
@@ -164,17 +166,16 @@ Null Category
 
 * City of Calgary has been contacted regarding which ward boundaries to use for 2016 Statscan data.  There was a major redrawing of ward boundaries in 2017, and there are inconsistencies between the graphics and written description on the Ward profiles on the city website 
 * Review JSON code for opportunities - datasets are inconsistent in content and completion
-* Develop code that indicates binary presence or absence of data
 * Decide what to do with dataset tags
 
 -------------------------------------------
 
 # Personal Notes
 
-* Binary data representation
 * Frequency of updates - metadata
 * Ephemeral vs permanent - data column headings? Possible manual separation
 * Transportation data - check Innes
+* Smaller tessellation cells for binary data
 * Edmonton?
 
 -----------------------------------------
