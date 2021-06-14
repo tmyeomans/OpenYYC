@@ -63,6 +63,11 @@ The following image also shows all the data, normalised to stop large datasets f
 
 <img width="595" alt="All Data Normalized Sum" src="https://user-images.githubusercontent.com/59377701/120252766-ae219a80-c242-11eb-9d0d-5bb9c5ea73e5.png">
 
+An alternative approach is shown below.  This map shows the binary sum.  In this example, each input tessell was only recorded as having data or not, and the results were then summed.  The amount of data in each cell in this example is irrelevant.   
+
+<img width="410" alt="All Data Binary Sum" src="https://user-images.githubusercontent.com/59377701/121898797-02b42380-cce1-11eb-84f6-c595a8de74d3.png">
+
+
 --------------------------------------------------
 
 # Aggregated City-Assigned Categories, Suspected Duplicates Removed
