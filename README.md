@@ -72,6 +72,8 @@ An alternative approach is shown below.  This map shows the binary sum.  In this
 
 # Aggregated City-Assigned Categories, Suspected Duplicates Removed
 
+The following maps were created using the normalized total sum for each city assigned category.  Suspected duplicates of data, such as when the city had a 'dataset' and 'map' with the same name were removed.
+
 Basemaps
 
 ![Basemaps](https://user-images.githubusercontent.com/59377701/120404881-8dba1480-c304-11eb-91f8-a64632365786.png)
