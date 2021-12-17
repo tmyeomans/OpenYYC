@@ -191,8 +191,6 @@ Null Category
 
 # Scripts in the Repository:
 
-Datadownloader.py - Code modified from R. Burns to bulk extract all data from the Open Calgary website (https://data.calgary.ca/)
-
 OpenYYC_script_shapefile_extraction.py - Code to extract all of the shapefile data and move it into a single folder
 
 OpenYYC_script_projection_foldercreation - Code to separate shapefiles into new folders based on geometry and project into the desired coordinate system
